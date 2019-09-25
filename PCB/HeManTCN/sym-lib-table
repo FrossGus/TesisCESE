@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name HeManTCN-rescue)(type Legacy)(uri ${KIPRJMOD}/HeManTCN-rescue.lib)(options "")(descr ""))
+)
