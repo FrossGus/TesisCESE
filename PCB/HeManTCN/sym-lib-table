@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name HeManTCN-rescue)(type Legacy)(uri ${KIPRJMOD}/HeManTCN-rescue.lib)(options "")(descr ""))
+  (lib (name Bombardier)(type Legacy)(uri /mnt/Shared/GitHub/Repos/TesisCESE/PCB/HeManTCN/Bombardier.lib)(options "")(descr ""))
 )

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MVBC02D
+D Controlador del Bus del Coche
+K MVBC02D TCN
+F /mnt/Shared/GitHub/Repos/TesisCESE/Docs/MVBC02D_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

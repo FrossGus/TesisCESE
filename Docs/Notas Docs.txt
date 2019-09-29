@@ -1,3 +1,5 @@
 Comparacion de la serie STM32H7 en https://www.digikey.com/short/p28qjw
 
+Comparacion de los DIP SWITCHES en https://www.digikey.com/short/p2h397
+
 
