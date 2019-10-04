@@ -1,0 +1,320 @@
+EESchema Schematic File Version 4
+LIBS:HeManTCN-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title "SnifferTCN"
+Date "2019-09-25"
+Rev "Rev 0.1"
+Comp "Gustavo F. Paredes Delaloye"
+Comment1 "Tesis para CESE 7ma Cohorte."
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6250 2200 2    50   ~ 0
+C_USBD_D-
+Text Label 6250 2100 2    50   ~ 0
+C_USBD_D+
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DEF7
+P 6550 2500
+F 0 "#PWR?" H 6550 2250 50  0001 C CNN
+F 1 "GND" V 6555 2372 50  0000 R CNN
+F 2 "" H 6550 2500 50  0001 C CNN
+F 3 "" H 6550 2500 50  0001 C CNN
+	1    6550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DEFD
+P 6550 3400
+F 0 "#PWR?" H 6550 3150 50  0001 C CNN
+F 1 "GND" V 6555 3272 50  0000 R CNN
+F 2 "" H 6550 3400 50  0001 C CNN
+F 3 "" H 6550 3400 50  0001 C CNN
+	1    6550 3400
+	0    1    1    0   
+$EndComp
+Text Label 6250 3000 2    50   ~ 0
+C_USB_SER_D+
+Text Label 6250 3100 2    50   ~ 0
+C_USB_SER_D-
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DF05
+P 4900 3000
+F 0 "#PWR?" H 4900 2750 50  0001 C CNN
+F 1 "GND" V 4905 2872 50  0000 R CNN
+F 2 "" H 4900 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	0    -1   1    0   
+$EndComp
+Text Label 6250 1900 2    50   ~ 0
+VBUS1
+Text Label 6250 2800 2    50   ~ 0
+VBUS2
+Text Label 4900 2000 0    50   ~ 0
+VBUS1
+Text Label 5400 2600 0    50   ~ 0
+C_USBD_D+
+Text Label 4400 2600 2    50   ~ 0
+C_USBD_D-
+Text Label 4400 2400 2    50   ~ 0
+USBD_D-
+Text Label 5400 2400 0    50   ~ 0
+USBD_D+
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DF12
+P 4900 4250
+F 0 "#PWR?" H 4900 4000 50  0001 C CNN
+F 1 "GND" V 4905 4122 50  0000 R CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	0    -1   1    0   
+$EndComp
+Text Label 4900 3250 0    50   ~ 0
+VBUS2
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DF19
+P 4850 5450
+F 0 "#PWR?" H 4850 5200 50  0001 C CNN
+F 1 "GND" V 4855 5322 50  0000 R CNN
+F 2 "" H 4850 5450 50  0001 C CNN
+F 3 "" H 4850 5450 50  0001 C CNN
+	1    4850 5450
+	0    -1   1    0   
+$EndComp
+Text Label 5350 5050 0    50   ~ 0
+C_USBH_D+
+Text Label 4350 5050 2    50   ~ 0
+C_USBH_D-
+Text Label 4350 4850 2    50   ~ 0
+USBH_D-
+Text Label 5350 4850 0    50   ~ 0
+USBH_D+
+Text Label 5400 3850 0    50   ~ 0
+C_USB_SER_D+
+Text Label 5400 3650 0    50   ~ 0
+USB_SER_D+
+Text Label 4400 3850 2    50   ~ 0
+C_USB_SER_D-
+Text Label 4400 3650 2    50   ~ 0
+USB_SER_D-
+$Comp
+L Power_Protection:USBLC6-2SC6 U?
+U 1 1 5DA4DF28
+P 4900 2500
+F 0 "U?" H 4650 2850 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 5250 2850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4150 2900 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 5100 2850 50  0001 C CNN
+F 4 "USBLC6-2SC6" H -1350 -1650 50  0001 C CNN "manf#"
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:USBLC6-2SC6 U?
+U 1 1 5DA4DF30
+P 4900 3750
+F 0 "U?" H 4650 4100 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 5250 4100 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4150 4150 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 5100 4100 50  0001 C CNN
+F 4 "USBLC6-2SC6" H -1350 -1650 50  0001 C CNN "manf#"
+	1    4900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:USBLC6-2SC6 U?
+U 1 1 5DA4DF38
+P 4850 4950
+F 0 "U?" H 4600 5300 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 5250 5300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4100 5350 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 5050 5300 50  0001 C CNN
+F 4 "USBLC6-2SC6" H -1350 -1650 50  0001 C CNN "manf#"
+	1    4850 4950
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 1800 0    50   ~ 0
+USB
+Text Label 6550 5050 2    50   ~ 0
+C_USBH_D+
+Text Label 6550 5150 2    50   ~ 0
+C_USBH_D-
+$Comp
+L Connector:USB_B J?
+U 1 1 5DA4DF43
+P 6550 2100
+F 0 "J?" H 6750 2450 50  0000 R CNN
+F 1 "USB_B" H 6600 2450 50  0000 R CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 6700 2050 50  0001 C CNN
+F 3 " ~" H 6700 2050 50  0001 C CNN
+F 4 "USB-B-S-RA-WT-SPCC" H 6550 2100 50  0001 C CNN "manf#"
+	1    6550 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2500 6650 2500
+Connection ~ 6550 2500
+$Comp
+L Connector:USB_B J?
+U 1 1 5DA4DF4D
+P 6550 3000
+F 0 "J?" H 6750 3350 50  0000 R CNN
+F 1 "USB_B" H 6600 3350 50  0000 R CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 6700 2950 50  0001 C CNN
+F 3 " ~" H 6700 2950 50  0001 C CNN
+F 4 "USB-B-S-RA-WT-SPCC" H 6550 3000 50  0001 C CNN "manf#"
+	1    6550 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3400 6650 3400
+Connection ~ 6550 3400
+$Comp
+L power:VDC #PWR?
+U 1 1 5DA4DF56
+P 5900 4200
+F 0 "#PWR?" H 5900 4100 50  0001 C CNN
+F 1 "VDC" H 5900 4475 50  0000 C CNN
+F 2 "" H 5900 4200 50  0001 C CNN
+F 3 "" H 5900 4200 50  0001 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HeManTCN-rescue:MIC2005A-mic20xx U?
+U 1 1 5DA4DF5D
+P 6350 4400
+F 0 "U?" H 6350 4765 50  0000 C CNN
+F 1 "MIC2005A" H 6350 4674 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6350 4400 50  0001 C CNN
+F 3 "" H 6350 4400 50  0001 C CNN
+F 4 "MIC2005A-2YM5-TR" H 6350 4400 50  0001 C CNN "manf#"
+	1    6350 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4200 5900 4300
+Text Label 4850 4450 0    50   ~ 0
+VBUS3
+Text Label 6550 5250 2    50   ~ 0
+VBUS3
+Text Label 6800 4300 0    50   ~ 0
+VBUS3
+Text Label 6800 4500 0    50   ~ 0
+PE11
+Text Label 5900 4500 2    50   ~ 0
+PE12
+$Comp
+L Device:C_Small C?
+U 1 1 5DA4DF6B
+P 7100 4400
+F 0 "C?" H 7192 4446 50  0000 L CNN
+F 1 "2.2u" H 7192 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7100 4400 50  0001 C CNN
+F 3 "~" H 7100 4400 50  0001 C CNN
+F 4 "CL21B225KPFNNNE" H -8150 -4850 50  0001 C CNN "manf#"
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DF72
+P 7100 4600
+F 0 "#PWR?" H 7100 4350 50  0001 C CNN
+F 1 "GND" V 7105 4472 50  0000 R CNN
+F 2 "" H 7100 4600 50  0001 C CNN
+F 3 "" H 7100 4600 50  0001 C CNN
+	1    7100 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 4500 7100 4600
+Wire Wire Line
+	7100 4300 6800 4300
+$Comp
+L Device:C_Small C?
+U 1 1 5DA4DF7B
+P 5700 4300
+F 0 "C?" V 5471 4300 50  0000 C CNN
+F 1 "2.2u" V 5562 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5700 4300 50  0001 C CNN
+F 3 "~" H 5700 4300 50  0001 C CNN
+F 4 "CL21B225KPFNNNE" H -9550 -4950 50  0001 C CNN "manf#"
+	1    5700 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4300 5900 4300
+Connection ~ 5900 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DF84
+P 5600 4300
+F 0 "#PWR?" H 5600 4050 50  0001 C CNN
+F 1 "GND" V 5605 4172 50  0000 R CNN
+F 2 "" H 5600 4300 50  0001 C CNN
+F 3 "" H 5600 4300 50  0001 C CNN
+	1    5600 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L HeManTCN-rescue:73725-0110BLF-dk_USB-DVI-HDMI-Connectors J?
+U 1 1 5DA4DF94
+P 6850 5150
+F 0 "J?" H 6747 5195 60  0000 R CNN
+F 1 "73725-0110BLF" H 7550 5550 60  0000 R CNN
+F 2 "footprints:USB_A_Female_Vertical_RA_73725-0110BLF" H 7050 5350 60  0001 L CNN
+F 3 "" H 7050 5450 60  0001 L CNN
+F 4 "609-1041-ND" H 7050 5550 60  0001 L CNN "Digi-Key_PN"
+F 5 "73725-0110BLF" H 7050 5650 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 7050 5750 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 7050 5850 60  0001 L CNN "Family"
+F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/73725.pdf" H 7050 5950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-fci/73725-0110BLF/609-1041-ND/1001355" H 7050 6050 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 TYPEA 4POS R/A" H 7050 6150 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (FCI)" H 7050 6250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7050 6350 60  0001 L CNN "Status"
+F 13 "73725-0110BLF" H 6850 5150 50  0001 C CNN "manf#"
+	1    6850 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DF9B
+P 6550 4950
+F 0 "#PWR?" H 6550 4700 50  0001 C CNN
+F 1 "GND" V 6555 4822 50  0000 R CNN
+F 2 "" H 6550 4950 50  0001 C CNN
+F 3 "" H 6550 4950 50  0001 C CNN
+	1    6550 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4DFA1
+P 6725 5475
+F 0 "#PWR?" H 6725 5225 50  0001 C CNN
+F 1 "GND" V 6730 5347 50  0000 R CNN
+F 2 "" H 6725 5475 50  0001 C CNN
+F 3 "" H 6725 5475 50  0001 C CNN
+	1    6725 5475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 4400 5600 4400
+Wire Wire Line
+	5600 4400 5600 4300
+Connection ~ 5600 4300
+$EndSCHEMATC

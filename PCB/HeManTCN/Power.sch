@@ -1,0 +1,241 @@
+EESchema Schematic File Version 4
+LIBS:HeManTCN-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 11
+Title "SnifferTCN"
+Date "2019-09-25"
+Rev "Rev 0.1"
+Comp "Gustavo F. Paredes Delaloye"
+Comment1 "Tesis para CESE 7ma Cohorte."
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C?
+U 1 1 5DA5E508
+P 6600 3850
+F 0 "C?" H 6692 3896 50  0000 L CNN
+F 1 "2.2u" H 6692 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6600 3850 50  0001 C CNN
+F 3 "~" H 6600 3850 50  0001 C CNN
+F 4 "CL21B225KPFNNNE" H -8650 -5400 50  0001 C CNN "manf#"
+	1    6600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DA5E510
+P 5900 3650
+F 0 "C?" H 5750 3800 50  0000 L CNN
+F 1 "0.1u" H 5750 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5900 3650 50  0001 C CNN
+F 3 "~" H 5900 3650 50  0001 C CNN
+F 4 "885012207098" H -6750 -5600 50  0001 C CNN "manf#"
+	1    5900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA5E517
+P 6600 3750
+F 0 "#PWR?" H 6600 3600 50  0001 C CNN
+F 1 "+3.3V" H 6615 3923 50  0000 C CNN
+F 2 "" H 6600 3750 50  0001 C CNN
+F 3 "" H 6600 3750 50  0001 C CNN
+	1    6600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDC #PWR?
+U 1 1 5DA5E51D
+P 4950 3150
+F 0 "#PWR?" H 4950 3050 50  0001 C CNN
+F 1 "VDC" H 4950 3425 50  0000 C CNN
+F 2 "" H 4950 3150 50  0001 C CNN
+F 3 "" H 4950 3150 50  0001 C CNN
+	1    4950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5E523
+P 6600 4100
+F 0 "#PWR?" H 6600 3850 50  0001 C CNN
+F 1 "GND" V 6605 3972 50  0000 R CNN
+F 2 "" H 6600 4100 50  0001 C CNN
+F 3 "" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5DA5E52A
+P 4250 4000
+F 0 "J?" H 4200 4100 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3450 3800 50  0000 L CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled" H 4250 4000 50  0001 C CNN
+F 3 "~" H 4250 4000 50  0001 C CNN
+F 4 "1985195" H -7550 -5450 50  0001 C CNN "manf#"
+	1    4250 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:B120-E3 D?
+U 1 1 5DA5E532
+P 4600 3750
+F 0 "D?" H 4400 3650 50  0000 C CNN
+F 1 "B120-E3" H 4650 3650 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 3575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 4600 3750 50  0001 C CNN
+F 4 "B120-E3" H -7550 -5400 50  0001 C CNN "manf#"
+	1    4600 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 3750 4950 3750
+Text Label 4450 3350 2    50   ~ 0
+VBUS2
+Text Label 4450 3150 2    50   ~ 0
+VBUS1
+$Comp
+L Diode:B120-E3 D?
+U 1 1 5DA5E53D
+P 4600 3350
+F 0 "D?" H 4400 3250 50  0000 C CNN
+F 1 "B120-E3" H 4650 3250 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 3175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 4600 3350 50  0001 C CNN
+F 4 "B120-E3" H -7550 -5400 50  0001 C CNN "manf#"
+	1    4600 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:B120-E3 D?
+U 1 1 5DA5E545
+P 4600 3150
+F 0 "D?" H 4400 3050 50  0000 C CNN
+F 1 "B120-E3" H 4650 3050 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 2975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 4600 3150 50  0001 C CNN
+F 4 "B120-E3" H -7550 -5400 50  0001 C CNN "manf#"
+	1    4600 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 3350 4950 3350
+Wire Wire Line
+	4750 3150 4950 3150
+Wire Wire Line
+	4950 3150 4950 3350
+Connection ~ 4950 3350
+Text Notes 5500 3050 0    50   ~ 0
+POWER
+$Comp
+L HeManTCN-rescue:AP63203-reg_ap6320x U?
+U 1 1 5DA5E552
+P 5400 3750
+F 0 "U?" H 5400 4115 50  0000 C CNN
+F 1 "AP63203" H 5400 4024 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 5400 3750 50  0001 C CNN
+F 3 "" H 5400 3750 50  0001 C CNN
+F 4 "AP63203WU-7" H -8000 -5450 50  0001 C CNN "manf#"
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DA5E55A
+P 6200 3850
+F 0 "C?" H 6292 3896 50  0000 L CNN
+F 1 "2.2u" H 6292 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 3850 50  0001 C CNN
+F 3 "~" H 6200 3850 50  0001 C CNN
+F 4 "CL21B225KPFNNNE" H -8650 -5400 50  0001 C CNN "manf#"
+	1    6200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 5DA5E562
+P 6000 3750
+F 0 "L?" V 5850 3750 50  0000 C CNN
+F 1 "68uH" V 5950 3750 50  0000 C CNN
+F 2 "Inductor_SMD:L_6.3x6.3_H3" H 6000 3750 50  0001 C CNN
+F 3 "~" H 6000 3750 50  0001 C CNN
+F 4 "1255AY-3R9N=P3" H -8650 -5400 50  0001 C CNN "manf#"
+	1    6000 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 3750 5900 3750
+Wire Wire Line
+	5750 3650 5750 3550
+Wire Wire Line
+	5750 3550 5900 3550
+Wire Wire Line
+	5750 3850 5900 3850
+Wire Wire Line
+	6200 3750 6600 3750
+Wire Wire Line
+	5050 3650 5050 3300
+Wire Wire Line
+	5050 3300 6200 3300
+Wire Wire Line
+	5050 3850 5050 3750
+Connection ~ 5050 3750
+Connection ~ 6600 3750
+Wire Wire Line
+	6600 3950 6600 4100
+Wire Wire Line
+	6200 3950 6200 4100
+Wire Wire Line
+	5900 3850 5900 4100
+Connection ~ 5900 4100
+Wire Wire Line
+	5900 4100 6200 4100
+Wire Wire Line
+	4950 3950 4950 4100
+Wire Wire Line
+	4950 4100 5900 4100
+Wire Wire Line
+	4450 3750 4450 4000
+$Comp
+L Device:C_Small C?
+U 1 1 5DA5E57C
+P 4950 3850
+F 0 "C?" H 4858 3896 50  0000 R CNN
+F 1 "10u" H 4858 3805 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4950 3850 50  0001 C CNN
+F 3 "~" H 4950 3850 50  0001 C CNN
+F 4 "CL21A106MQFNNNE" H -9850 -2800 50  0001 C CNN "manf#"
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3750 5050 3750
+Connection ~ 5900 3750
+Connection ~ 6200 4100
+Wire Wire Line
+	6200 4100 6600 4100
+Wire Wire Line
+	6100 3750 6200 3750
+Connection ~ 6200 3750
+Wire Wire Line
+	6200 3300 6200 3750
+Connection ~ 6600 4100
+Connection ~ 4950 3150
+Wire Notes Line
+	4100 2750 4100 4400
+Wire Notes Line
+	4100 4400 7000 4400
+Connection ~ 4950 3750
+Wire Wire Line
+	4450 4100 4950 4100
+Connection ~ 4950 4100
+Wire Wire Line
+	4950 3350 4950 3750
+$EndSCHEMATC

@@ -1,0 +1,206 @@
+EESchema Schematic File Version 4
+LIBS:HeManTCN-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 11
+Title "SnifferTCN"
+Date "2019-09-25"
+Rev "Rev 0.1"
+Comp "Gustavo F. Paredes Delaloye"
+Comment1 "Tesis para CESE 7ma Cohorte."
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5DA5F5A5
+P 5200 3150
+AR Path="/5DA5F5A5" Ref="SW?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5A5" Ref="SW?"  Part="1" 
+F 0 "SW?" V 5246 3102 50  0000 R CNN
+F 1 "RESET" V 5155 3102 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5200 3350 50  0001 C CNN
+F 3 "~" H 5200 3350 50  0001 C CNN
+F 4 "TL3342" H -3600 1850 50  0001 C CNN "manf#"
+	1    5200 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5F5AC
+P 5200 3350
+AR Path="/5DA5F5AC" Ref="#PWR?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 3100 50  0001 C CNN
+F 1 "GND" H 5205 3177 50  0000 C CNN
+F 2 "" H 5200 3350 50  0001 C CNN
+F 3 "" H 5200 3350 50  0001 C CNN
+	1    5200 3350
+	1    0    0    -1  
+$EndComp
+Text Label 5200 2950 0    50   ~ 0
+~RESET
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5DA5F5B4
+P 5650 3150
+AR Path="/5DA5F5B4" Ref="SW?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5B4" Ref="SW?"  Part="1" 
+F 0 "SW?" V 5696 3102 50  0000 R CNN
+F 1 "PC13" V 5605 3102 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5650 3350 50  0001 C CNN
+F 3 "~" H 5650 3350 50  0001 C CNN
+F 4 "PTS645VM31-2 LFS" H -3600 1850 50  0001 C CNN "manf#"
+	1    5650 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5F5BB
+P 5650 3350
+AR Path="/5DA5F5BB" Ref="#PWR?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 3100 50  0001 C CNN
+F 1 "GND" H 5655 3177 50  0000 C CNN
+F 2 "" H 5650 3350 50  0001 C CNN
+F 3 "" H 5650 3350 50  0001 C CNN
+	1    5650 3350
+	1    0    0    -1  
+$EndComp
+Text Label 5650 3750 0    50   ~ 0
+PC2
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5DA5F5C3
+P 5650 3850
+AR Path="/5DA5F5C3" Ref="D?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5C3" Ref="D?"  Part="1" 
+F 0 "D?" V 5696 3782 50  0000 R CNN
+F 1 "LED_PC2" V 5605 3782 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 5650 3850 50  0001 C CNN
+F 3 "~" V 5650 3850 50  0001 C CNN
+F 4 "150080RS75000" H -3600 1850 50  0001 C CNN "manf#"
+	1    5650 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DA5F5CB
+P 5650 4050
+AR Path="/5DA5F5CB" Ref="R?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5CB" Ref="R?"  Part="1" 
+F 0 "R?" H 5591 4004 50  0000 R CNN
+F 1 "220R" H 5591 4095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5650 4050 50  0001 C CNN
+F 3 "~" H 5650 4050 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -3600 1850 50  0001 C CNN "manf#"
+	1    5650 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5F5D2
+P 5650 4150
+AR Path="/5DA5F5D2" Ref="#PWR?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5D2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 3900 50  0001 C CNN
+F 1 "GND" H 5655 3977 50  0000 C CNN
+F 2 "" H 5650 4150 50  0001 C CNN
+F 3 "" H 5650 4150 50  0001 C CNN
+	1    5650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5DA5F5D9
+P 5150 3850
+AR Path="/5DA5F5D9" Ref="D?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5D9" Ref="D?"  Part="1" 
+F 0 "D?" V 5196 3782 50  0000 R CNN
+F 1 "LED_PWR" V 5105 3782 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 5150 3850 50  0001 C CNN
+F 3 "~" V 5150 3850 50  0001 C CNN
+F 4 "150080RS75000" H -3600 1850 50  0001 C CNN "manf#"
+	1    5150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DA5F5E1
+P 5150 4050
+AR Path="/5DA5F5E1" Ref="R?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5E1" Ref="R?"  Part="1" 
+F 0 "R?" H 5091 4004 50  0000 R CNN
+F 1 "220R" H 5091 4095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -3600 1850 50  0001 C CNN "manf#"
+	1    5150 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5F5E8
+P 5150 4150
+AR Path="/5DA5F5E8" Ref="#PWR?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5E8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 3900 50  0001 C CNN
+F 1 "GND" H 5155 3977 50  0000 C CNN
+F 2 "" H 5150 4150 50  0001 C CNN
+F 3 "" H 5150 4150 50  0001 C CNN
+	1    5150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA5F5EE
+P 5150 3700
+AR Path="/5DA5F5EE" Ref="#PWR?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5EE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 3550 50  0001 C CNN
+F 1 "+3.3V" V 5165 3828 50  0000 L CNN
+F 2 "" H 5150 3700 50  0001 C CNN
+F 3 "" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	0    1    1    0   
+$EndComp
+Text Label 5900 2950 0    50   ~ 0
+PC13
+$Comp
+L Device:R_Small R?
+U 1 1 5DA5F5F6
+P 5650 2850
+AR Path="/5DA5F5F6" Ref="R?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5F6" Ref="R?"  Part="1" 
+F 0 "R?" H 5709 2896 50  0000 L CNN
+F 1 "4K7" H 5709 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+F 4 "RC0805JR-074K7L" H -3600 1850 50  0001 C CNN "manf#"
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2950 5650 2950
+Connection ~ 5650 2950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA5F5FF
+P 5750 2750
+AR Path="/5DA5F5FF" Ref="#PWR?"  Part="1" 
+AR Path="/5DA5F3DC/5DA5F5FF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 2600 50  0001 C CNN
+F 1 "+3.3V" V 5765 2878 50  0000 L CNN
+F 2 "" H 5750 2750 50  0001 C CNN
+F 3 "" H 5750 2750 50  0001 C CNN
+	1    5750 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2750 5650 2750
+Wire Wire Line
+	5150 3700 5150 3750
+$EndSCHEMATC

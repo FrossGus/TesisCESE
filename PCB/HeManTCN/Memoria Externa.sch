@@ -1,0 +1,282 @@
+EESchema Schematic File Version 4
+LIBS:HeManTCN-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 11
+Title "SnifferTCN"
+Date "2019-09-25"
+Rev "Rev 0.1"
+Comp "Gustavo F. Paredes Delaloye"
+Comment1 "Tesis para CESE 7ma Cohorte."
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5150 3050 2    50   ~ 0
+SDMMC_CMD
+Text Label 5150 3450 2    50   ~ 0
+SDMMC_D0
+Text Label 5150 3250 2    50   ~ 0
+SDMMC_CLK
+$Comp
+L Device:C_Small C?
+U 1 1 5DA41C4D
+P 3800 3250
+F 0 "C?" H 3550 3300 50  0000 L CNN
+F 1 "0.1u" H 3500 3200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3800 3250 50  0001 C CNN
+F 3 "~" H 3800 3250 50  0001 C CNN
+F 4 "885012207098" H -1700 1900 50  0001 C CNN "manf#"
+	1    3800 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA41C54
+P 3800 3150
+F 0 "#PWR?" H 3800 3000 50  0001 C CNN
+F 1 "+3.3V" H 3815 3323 50  0000 C CNN
+F 2 "" H 3800 3150 50  0001 C CNN
+F 3 "" H 3800 3150 50  0001 C CNN
+	1    3800 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5DA41C5B
+P 3800 3350
+F 0 "#PWR?" H 3800 3100 50  0001 C CNN
+F 1 "GND" H 3850 3200 50  0000 R CNN
+F 2 "" H 3800 3350 50  0001 C CNN
+F 3 "" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5DA41C62
+P 6850 3750
+F 0 "#PWR?" H 6850 3500 50  0001 C CNN
+F 1 "GND" H 6900 3600 50  0000 R CNN
+F 2 "" H 6850 3750 50  0001 C CNN
+F 3 "" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DA41C69
+P 6500 4400
+F 0 "C?" H 6592 4446 50  0000 L CNN
+F 1 "0.1u" H 6592 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6500 4400 50  0001 C CNN
+F 3 "~" H 6500 4400 50  0001 C CNN
+F 4 "885012207098" H -1400 1750 50  0001 C CNN "manf#"
+	1    6500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA41C70
+P 6500 4300
+F 0 "#PWR?" H 6500 4150 50  0001 C CNN
+F 1 "+3.3V" H 6515 4473 50  0000 C CNN
+F 2 "" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA41C76
+P 6500 4500
+F 0 "#PWR?" H 6500 4250 50  0001 C CNN
+F 1 "GND" H 6505 4327 50  0000 C CNN
+F 2 "" H 6500 4500 50  0001 C CNN
+F 3 "" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA41C7C
+P 4950 4600
+F 0 "#PWR?" H 4950 4350 50  0001 C CNN
+F 1 "GND" V 4950 4450 50  0000 R CNN
+F 2 "" H 4950 4600 50  0001 C CNN
+F 3 "" H 4950 4600 50  0001 C CNN
+	1    4950 4600
+	0    1    1    0   
+$EndComp
+Text Label 6000 4500 0    50   ~ 0
+QSPI_SCK
+Text Label 4950 4300 2    50   ~ 0
+~QSPI_CS
+Text Label 6000 4600 0    50   ~ 0
+QSPI_IO0
+Text Label 4950 4400 2    50   ~ 0
+QSPI_IO1
+Text Label 4950 4500 2    50   ~ 0
+QSPI_IO2
+Text Label 6000 4400 0    50   ~ 0
+QSPI_IO3
+Text Notes 3700 2550 0    50   ~ 0
+MEMORY
+$Comp
+L HeManTCN-rescue:S25FL127SABMFI101-2019-03-05_02-01-41 U?
+U 1 1 5DA41C8A
+P 3950 4300
+F 0 "U?" H 5475 4587 60  0000 C CNN
+F 1 "S25FL127SABMFI101" H 5475 4481 60  0000 C CNN
+F 2 "footprints:S25FL127SABMFI101" H 5450 4540 60  0001 C CNN
+F 3 "" H 4950 4300 60  0000 C CNN
+F 4 "S25FL127SABMFI101" H -1400 1750 50  0001 C CNN "manf#"
+	1    3950 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4300 6500 4300
+Connection ~ 6500 4300
+Wire Notes Line
+	6950 2450 6950 4800
+$Comp
+L Device:R_Small R?
+U 1 1 5DA41C95
+P 4450 2850
+F 0 "R?" V 4500 2750 50  0000 R CNN
+F 1 "4K7" V 4500 3100 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 2850 50  0001 C CNN
+F 3 "~" H 4450 2850 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -4300 650 50  0001 C CNN "manf#"
+	1    4450 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3150 4150 3150
+Wire Wire Line
+	3800 3350 5150 3350
+$Comp
+L Device:R_Small R?
+U 1 1 5DA41C9F
+P 4450 2950
+F 0 "R?" V 4500 2850 50  0000 R CNN
+F 1 "4K7" V 4500 3200 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 2950 50  0001 C CNN
+F 3 "~" H 4450 2950 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -4300 750 50  0001 C CNN "manf#"
+	1    4450 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DA41CA7
+P 4450 3050
+F 0 "R?" V 4500 2950 50  0000 R CNN
+F 1 "4K7" V 4500 3300 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 3050 50  0001 C CNN
+F 3 "~" H 4450 3050 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -4300 850 50  0001 C CNN "manf#"
+	1    4450 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DA41CAF
+P 4450 3250
+F 0 "R?" V 4500 3150 50  0000 R CNN
+F 1 "4K7" V 4500 3500 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4450 3250 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -4300 1050 50  0001 C CNN "manf#"
+	1    4450 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DA41CB7
+P 4450 3450
+F 0 "R?" V 4500 3350 50  0000 R CNN
+F 1 "4K7" V 4500 3700 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 3450 50  0001 C CNN
+F 3 "~" H 4450 3450 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -4300 1250 50  0001 C CNN "manf#"
+	1    4450 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DA41CBF
+P 4450 3550
+F 0 "R?" V 4500 3450 50  0000 R CNN
+F 1 "4K7" V 4500 3800 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 3550 50  0001 C CNN
+F 3 "~" H 4450 3550 50  0001 C CNN
+F 4 "CRGCQ0805J22R" H -4300 1350 50  0001 C CNN "manf#"
+	1    4450 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HeManTCN-rescue:Micro_SD_Card-Connector-dragonmanh7-rescue J?
+U 1 1 5DA41CC6
+P 6050 3150
+F 0 "J?" H 5350 3750 50  0000 C CNN
+F 1 "Micro_SD_Card" H 6000 3750 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 7200 3450 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 6050 3150 50  0001 C CNN
+	1    6050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3550 5150 3550
+Wire Wire Line
+	5150 3450 4550 3450
+Wire Wire Line
+	4550 3250 5150 3250
+Wire Wire Line
+	5150 3050 4550 3050
+Wire Wire Line
+	4550 2950 5150 2950
+Wire Wire Line
+	5150 2850 4550 2850
+Wire Wire Line
+	4350 2850 4150 2850
+Wire Wire Line
+	4150 2850 4150 2950
+Wire Wire Line
+	4150 3550 4350 3550
+Wire Wire Line
+	4350 3450 4150 3450
+Connection ~ 4150 3450
+Wire Wire Line
+	4150 3450 4150 3550
+Wire Wire Line
+	4350 3250 4150 3250
+Connection ~ 4150 3250
+Wire Wire Line
+	4150 3250 4150 3450
+Wire Wire Line
+	4350 3050 4150 3050
+Connection ~ 4150 3050
+Wire Wire Line
+	4150 3050 4150 3150
+Wire Wire Line
+	4350 2950 4150 2950
+Connection ~ 4150 2950
+Wire Wire Line
+	4150 2950 4150 3050
+Connection ~ 4150 3150
+Wire Wire Line
+	4150 3150 5150 3150
+Wire Wire Line
+	4150 3150 4150 3250
+Text Label 5150 3550 2    50   ~ 0
+SDMMC_D1
+Text Label 5150 2850 2    50   ~ 0
+SDMMC_D2
+Text Label 5150 2950 2    50   ~ 0
+SDMMC_D3
+$EndSCHEMATC
