@@ -514,7 +514,7 @@ Text Label 4750 3650 0    50   ~ 0
 USBD_D-
 Text Label 4750 3750 0    50   ~ 0
 USBD_D+
-Text Label 4750 6050 0    50   ~ 0
+Text Label 4750 5950 0    50   ~ 0
 ENET_MDC
 Text Label 4750 2650 0    50   ~ 0
 ENET_REF_CLK
@@ -554,15 +554,15 @@ Connection ~ 4750 7500
 Wire Wire Line
 	4950 7350 4950 7500
 Connection ~ 4950 7500
-Text Label 4750 6750 0    50   ~ 0
+Text Label 4750 6650 0    50   ~ 0
 SDMMC_D0
 Text Label 4750 7150 0    50   ~ 0
 SDMMC_CLK
-Text Label 2950 6150 2    50   ~ 0
+Text Label 4750 4250 0    50   ~ 0
 SDMMC_CMD
-Text Label 2950 6050 2    50   ~ 0
+Text Label 2100 6400 2    50   ~ 0
 CAN_TX
-Text Label 2950 5950 2    50   ~ 0
+Text Label 2150 6300 2    50   ~ 0
 CAN_RX
 Text Label 4750 7050 0    50   ~ 0
 ~QSPI_CS
@@ -570,13 +570,13 @@ Text Label 2950 2550 2    50   ~ 0
 ~RESET
 Text Label 2950 2750 2    50   ~ 0
 ~BOOT
-Text Label 2950 4950 2    50   ~ 0
+Text Label 4750 4650 0    50   ~ 0
 QSPI_IO0
-Text Label 2950 5050 2    50   ~ 0
+Text Label 4750 4750 0    50   ~ 0
 QSPI_IO1
-Text Label 2950 5150 2    50   ~ 0
+Text Label 4750 4850 0    50   ~ 0
 QSPI_IO2
-Text Label 2950 5250 2    50   ~ 0
+Text Label 4750 4950 0    50   ~ 0
 QSPI_IO3
 Text Label 4750 4450 0    50   ~ 0
 QSPI_SCK
@@ -591,60 +591,60 @@ SWDIO
 Text Label 4750 5150 0    50   ~ 0
 RS485_DE
 Text Label 2950 6250 2    50   ~ 0
-PD3
+MD3
 Text Label 2950 6350 2    50   ~ 0
-PD4
+MD4
 Text Label 2950 6450 2    50   ~ 0
-PD5
+MD5
 Text Label 2950 6550 2    50   ~ 0
-PD6
+MD6
 Text Label 2950 6650 2    50   ~ 0
-PD7
+MD7
 Text Label 2950 6750 2    50   ~ 0
-PD8
+MD8
 Text Label 2950 6850 2    50   ~ 0
-PD9
+MD9
 Text Label 2950 6950 2    50   ~ 0
-PD10
+MD10
 Text Label 2950 7050 2    50   ~ 0
-PD11
+MD11
 Text Label 2950 7150 2    50   ~ 0
-PD12
+MD12
 Text Label 2950 7250 2    50   ~ 0
-PD13
+MD13
 Text Label 2950 7350 2    50   ~ 0
-PD14
+MD14
 Text Label 2950 7450 2    50   ~ 0
-PD15
+MD15
 Text Label 2950 4650 2    50   ~ 0
-PE4
+MA5
 Text Label 2950 4750 2    50   ~ 0
-PE5
+MA6
 Text Label 2950 4850 2    50   ~ 0
-PE6
+MA7
 Text Label 2950 5350 2    50   ~ 0
-PE11
+MA12
 Text Label 2950 5450 2    50   ~ 0
-PE12
+MA13
 Text Label 2950 5550 2    50   ~ 0
-PE13
+MA14
 Text Label 2950 5650 2    50   ~ 0
-PE14
+MA15
 Text Label 2950 5750 2    50   ~ 0
-PE15
-Text Label 4750 4250 0    50   ~ 0
+MA16
+Text Label 5400 4250 0    50   ~ 0
 PB0
 Text Label 4750 4350 0    50   ~ 0
 PB1
 Text Label 4750 4550 0    50   ~ 0
 PB3
-Text Label 4750 4650 0    50   ~ 0
+Text Label 5500 4650 0    50   ~ 0
 PB4
-Text Label 4750 4750 0    50   ~ 0
+Text Label 5500 4750 0    50   ~ 0
 PB5
-Text Label 4750 4850 0    50   ~ 0
+Text Label 5500 4850 0    50   ~ 0
 PB6
-Text Label 4750 4950 0    50   ~ 0
+Text Label 5500 4950 0    50   ~ 0
 PB7
 Text Label 4750 5050 0    50   ~ 0
 PB8
@@ -664,17 +664,17 @@ Text Label 4750 3350 0    50   ~ 0
 PA8
 Text Label 4750 4050 0    50   ~ 0
 PA15
-Text Label 4750 5950 0    50   ~ 0
+Text Label 5500 5950 0    50   ~ 0
 PC0
-Text Label 4750 6150 0    50   ~ 0
+Text Label 5500 6100 0    50   ~ 0
 PC2
 Text Label 4750 6250 0    50   ~ 0
 PC3
 Text Label 4750 6550 0    50   ~ 0
 PC6
-Text Label 4750 6650 0    50   ~ 0
-PC7
-Text Label 4750 6850 0    50   ~ 0
+Text Label 5500 6750 0    50   ~ 0
+PC8
+Text Label 5500 6850 0    50   ~ 0
 PC9
 Text Label 4750 6950 0    50   ~ 0
 PC10
@@ -883,14 +883,6 @@ F 3 "" H 2550 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 2100 2550 2300
-Text GLabel 2950 4250 0    50   Input ~ 0
-RS485_RX
-Text GLabel 2950 4350 0    50   Input ~ 0
-RS485_TX
-Text GLabel 2950 4450 0    50   Input ~ 0
-PE2
-Text GLabel 2950 4550 0    50   Input ~ 0
-PE3
 $Comp
 L Bombardier:MVBC02D U?
 U 1 1 5DA67866
@@ -3825,4 +3817,219 @@ F 9 "71V416L15PHG8" H 7500 3900 50  0001 L CNN "Manufacturer_Part_Number"
 	1    6450 4500
 	1    0    0    -1  
 $EndComp
+Text Label 2950 4550 2    50   ~ 0
+MA4
+Text Label 2950 4450 2    50   ~ 0
+MA3
+Text Label 4750 6150 0    50   ~ 0
+RS485_TX
+Text Label 4750 6050 0    50   ~ 0
+RS485_RX
+Text Label 9200 5350 2    50   ~ 0
+MD0
+Text Label 6450 5200 2    50   ~ 0
+MD0
+Text Label 9200 5250 2    50   ~ 0
+MD1
+Text Label 6450 5300 2    50   ~ 0
+MD1
+Text Label 2950 5950 2    50   ~ 0
+MD0
+Text Label 2950 6050 2    50   ~ 0
+MD1
+Text Label 2950 6150 2    50   ~ 0
+MD2
+Text Label 6450 5400 2    50   ~ 0
+MD2
+Text Label 6450 5500 2    50   ~ 0
+MD3
+Text Label 6450 5600 2    50   ~ 0
+MD4
+Text Label 6450 5700 2    50   ~ 0
+MD5
+Text Label 6450 5800 2    50   ~ 0
+MD6
+Text Label 6450 5900 2    50   ~ 0
+MD7
+Text Label 7650 5900 0    50   ~ 0
+MD8
+Text Label 7650 5800 0    50   ~ 0
+MD9
+Text Label 7650 5700 0    50   ~ 0
+MD10
+Text Label 7650 5600 0    50   ~ 0
+MD11
+Text Label 7650 5500 0    50   ~ 0
+MD12
+Text Label 7650 5400 0    50   ~ 0
+MD13
+Text Label 7650 5300 0    50   ~ 0
+MD14
+Text Label 7650 5200 0    50   ~ 0
+MD15
+Text Label 9200 5150 2    50   ~ 0
+MD2
+Text Label 9200 5050 2    50   ~ 0
+MD3
+Text Label 9200 4950 2    50   ~ 0
+MD4
+Text Label 9200 4850 2    50   ~ 0
+MD5
+Text Label 9200 4750 2    50   ~ 0
+MD6
+Text Label 9200 4650 2    50   ~ 0
+MD7
+Text Label 9200 4550 2    50   ~ 0
+MD8
+Text Label 9200 4450 2    50   ~ 0
+MD9
+Text Label 9200 4350 2    50   ~ 0
+MD10
+Text Label 9200 4250 2    50   ~ 0
+MD11
+Text Label 9200 4150 2    50   ~ 0
+MD12
+Text Label 9200 4050 2    50   ~ 0
+MD13
+Text Label 9200 3950 2    50   ~ 0
+MD14
+Text Label 9200 3850 2    50   ~ 0
+MD15
+Text Label 11200 2550 0    50   ~ 0
+MA1
+Text Label 11200 2650 0    50   ~ 0
+MA2
+Text Label 11200 2750 0    50   ~ 0
+MA3
+Text Label 11200 2850 0    50   ~ 0
+MA4
+Text Label 11200 2950 0    50   ~ 0
+MA5
+Text Label 11200 3050 0    50   ~ 0
+MA6
+Text Label 11200 3150 0    50   ~ 0
+MA7
+Text Label 11200 3250 0    50   ~ 0
+MA8
+Text Label 11200 3350 0    50   ~ 0
+MA9
+Text Label 11200 3450 0    50   ~ 0
+MA10
+Text Label 11200 3550 0    50   ~ 0
+MA11
+Text Label 11200 3650 0    50   ~ 0
+MA12
+Text Label 11200 3750 0    50   ~ 0
+MA13
+Text Label 11200 3850 0    50   ~ 0
+MA14
+Text Label 11200 3950 0    50   ~ 0
+MA15
+Text Label 11200 4050 0    50   ~ 0
+MA16
+Text Label 11200 4150 0    50   ~ 0
+MA17
+Text Label 11200 4250 0    50   ~ 0
+MA18
+Text Label 11200 4350 0    50   ~ 0
+MA19
+Text Label 6450 4500 2    50   ~ 0
+MA1
+Text Label 6450 4600 2    50   ~ 0
+MA2
+Text Label 6450 4700 2    50   ~ 0
+MA3
+Text Label 6450 4800 2    50   ~ 0
+MA4
+Text Label 6450 4900 2    50   ~ 0
+MA5
+Text Label 6450 6200 2    50   ~ 0
+MA6
+Text Label 6450 6300 2    50   ~ 0
+MA7
+Text Label 6450 6400 2    50   ~ 0
+MA8
+Text Label 6450 6500 2    50   ~ 0
+MA9
+Text Label 6450 6600 2    50   ~ 0
+MA10
+Text Label 7650 6600 0    50   ~ 0
+MA11
+Text Label 7650 6500 0    50   ~ 0
+MA12
+Text Label 7650 6400 0    50   ~ 0
+MA13
+Text Label 7650 6300 0    50   ~ 0
+MA14
+Text Label 7650 6200 0    50   ~ 0
+MA15
+Text Label 7650 4700 0    50   ~ 0
+MA16
+Text Label 7650 4600 0    50   ~ 0
+MA17
+Text Label 7650 4500 0    50   ~ 0
+MA18
+Text Label 2950 4250 2    50   ~ 0
+MA1
+Text Label 2950 4350 2    50   ~ 0
+MA2
+Text Label 2950 4950 2    50   ~ 0
+MA8
+Text Label 2950 5050 2    50   ~ 0
+MA9
+Text Label 2950 5150 2    50   ~ 0
+MA10
+Text Label 2950 5250 2    50   ~ 0
+MA11
+Text Label 4750 6750 0    50   ~ 0
+MA17
+Text Label 4750 6850 0    50   ~ 0
+MA18
+$Comp
+L power:GND #PWR?
+U 1 1 5DFE2514
+P 7250 6900
+AR Path="/5DFE2514" Ref="#PWR?"  Part="1" 
+AR Path="/5DA2C15A/5DFE2514" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7250 6650 50  0001 C CNN
+F 1 "GND" H 7255 6727 50  0000 C CNN
+F 2 "" H 7250 6900 50  0001 C CNN
+F 3 "" H 7250 6900 50  0001 C CNN
+	1    7250 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6900 7100 6900
+Connection ~ 7100 6900
+Wire Wire Line
+	7100 6900 7250 6900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DFF3D0A
+P 7200 4200
+AR Path="/5DFF3D0A" Ref="#PWR?"  Part="1" 
+AR Path="/5DA2C15A/5DFF3D0A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7200 4050 50  0001 C CNN
+F 1 "+3.3V" V 7200 4450 50  0000 C CNN
+F 2 "" H 7200 4200 50  0001 C CNN
+F 3 "" H 7200 4200 50  0001 C CNN
+	1    7200 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 4200 7100 4200
+Connection ~ 7100 4200
+Wire Wire Line
+	7100 4200 7200 4200
+Text Label 11200 4850 0    50   ~ 0
+TMRDN
+Text Label 7650 4800 0    50   ~ 0
+TMRDN
+NoConn ~ 7650 6100
+Text Label 6450 6100 2    50   ~ 0
+TMWRN
+Text Label 11200 4950 0    50   ~ 0
+TMWRN
+Text Label 11200 5050 0    50   ~ 0
+TMCSN
 $EndSCHEMATC
