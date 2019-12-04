@@ -653,11 +653,11 @@ PB10
 Text Label 4750 2550 0    50   ~ 0
 PA0
 Text Label 4750 2850 0    50   ~ 0
-PA3
+TMCSN
 Text Label 4750 2950 0    50   ~ 0
-PA4
+TMWRN
 Text Label 4750 3050 0    50   ~ 0
-PA5
+TMRDN
 Text Label 4750 3150 0    50   ~ 0
 PA6
 Text Label 4750 3350 0    50   ~ 0
@@ -4032,4 +4032,21 @@ Text Label 11200 4950 0    50   ~ 0
 TMWRN
 Text Label 11200 5050 0    50   ~ 0
 TMCSN
+Text Label 6450 5000 2    50   ~ 0
+TMCSN
+$Comp
+L power:GND #PWR?
+U 1 1 5E02C64F
+P 11600 5650
+AR Path="/5E02C64F" Ref="#PWR?"  Part="1" 
+AR Path="/5DA2C15A/5E02C64F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11600 5400 50  0001 C CNN
+F 1 "GND" H 11605 5477 50  0000 C CNN
+F 2 "" H 11600 5650 50  0001 C CNN
+F 3 "" H 11600 5650 50  0001 C CNN
+	1    11600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 5650 11600 5650
 $EndSCHEMATC
