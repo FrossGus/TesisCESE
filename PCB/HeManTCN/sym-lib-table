@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name HeManTCN-rescue)(type Legacy)(uri ${KIPRJMOD}/HeManTCN-rescue.lib)(options "")(descr ""))
   (lib (name Bombardier)(type Legacy)(uri /mnt/Shared/GitHub/Repos/TesisCESE/PCB/HeManTCN/Bombardier.lib)(options "")(descr ""))
+  (lib (name 2019-12-04_21-08-15)(type Legacy)(uri /mnt/Shared/GitHub/Repos/TesisCESE/Docs/DataBuffer/ul_SN74LVCR162245DGGR/KiCAD/2019-12-04_21-08-15/2019-12-04_21-08-15.lib)(options "")(descr ""))
+  (lib (name 2019-12-04_21-05-43)(type Legacy)(uri "/mnt/Shared/GitHub/Repos/TesisCESE/Docs/Address Buffer/ul_SN74AVC16827DGVR/KiCAD/2019-12-04_21-05-43/2019-12-04_21-05-43.lib")(options "")(descr ""))
 )

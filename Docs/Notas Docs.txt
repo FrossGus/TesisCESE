@@ -13,3 +13,11 @@ Para el MVBC02D necesito:
 
 
 
+
+Modelos CAD:
+https://www.ultralibrarian.com/
+
+Como agregar librerias en KiCAD: https://app.ultralibrarian.com/content/help/?kicad.htm
+
+
+

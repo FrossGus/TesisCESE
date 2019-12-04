@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SN74LVCR162245DGGR)(type KiCad)(uri /mnt/Shared/GitHub/Repos/TesisCESE/Docs/DataBuffer/ul_SN74LVCR162245DGGR/KiCAD/2019-12-04_21-08-15/footprints.pretty/)(options "")(descr ""))
+  (lib (name SN74AVC16827DGVR)(type KiCad)(uri "/mnt/Shared/GitHub/Repos/TesisCESE/Docs/Address Buffer/ul_SN74AVC16827DGVR/KiCAD/2019-12-04_21-05-43/footprints.pretty/")(options "")(descr ""))
+)
