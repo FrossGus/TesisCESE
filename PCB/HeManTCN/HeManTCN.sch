@@ -560,10 +560,6 @@ Text Label 3900 9250 0    50   ~ 0
 SDMMC_CLK
 Text Label 3900 6350 0    50   ~ 0
 SDMMC_CMD
-Text Label 1250 8500 2    50   ~ 0
-CAN_TX
-Text Label 1300 8400 2    50   ~ 0
-CAN_RX
 Text Label 3900 9150 0    50   ~ 0
 ~QSPI_CS
 Text Label 2100 4650 2    50   ~ 0
@@ -588,8 +584,6 @@ Text Label 3900 6050 0    50   ~ 0
 SWCLK
 Text Label 3900 5950 0    50   ~ 0
 SWDIO
-Text Label 3900 7250 0    50   ~ 0
-RS485_DE
 Text Label 2100 8350 2    50   ~ 0
 MD3-u
 Text Label 2100 8450 2    50   ~ 0
@@ -617,21 +611,21 @@ MD14-u
 Text Label 2100 9550 2    50   ~ 0
 MD15-u
 Text Label 2100 6750 2    50   ~ 0
-MA5
+MA5-u
 Text Label 2100 6850 2    50   ~ 0
-MA6
+MA6-u
 Text Label 2100 6950 2    50   ~ 0
-MA7
+MA7-u
 Text Label 2100 7450 2    50   ~ 0
-MA12
+MA12-u
 Text Label 2100 7550 2    50   ~ 0
-MA13
+MA13-u
 Text Label 2100 7650 2    50   ~ 0
-MA14
+MA14-u
 Text Label 2100 7750 2    50   ~ 0
-MA15
+MA15-u
 Text Label 2100 7850 2    50   ~ 0
-MA16
+MA16-u
 Text Label 4550 6350 0    50   ~ 0
 PB0
 Text Label 3900 6450 0    50   ~ 0
@@ -648,8 +642,6 @@ Text Label 4650 7050 0    50   ~ 0
 PB7
 Text Label 3900 7150 0    50   ~ 0
 PB8
-Text Label 3900 7350 0    50   ~ 0
-PB10
 Text Label 3900 4650 0    50   ~ 0
 PA0
 Text Label 3900 4950 0    50   ~ 0
@@ -672,14 +664,10 @@ Text Label 3900 8350 0    50   ~ 0
 PC3
 Text Label 3900 8650 0    50   ~ 0
 PC6
-Text Label 4650 8850 0    50   ~ 0
-PC8
-Text Label 4650 8950 0    50   ~ 0
-PC9
-Text Label 3900 9050 0    50   ~ 0
-PC10
-Text Label 3900 9350 0    50   ~ 0
-MA19
+Text Label 4250 5150 0    50   ~ 0
+I-O
+Text Label 4250 5050 0    50   ~ 0
+INPUT
 Wire Wire Line
 	3200 9850 3400 9850
 Connection ~ 3200 9850
@@ -1455,420 +1443,6 @@ F 4 "885012207098" H 5800 650 50  0001 C CNN "manf#"
 	1    20000 1750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Interface_UART:ST485EBDR U106
-U 1 1 5DA7421B
-P 24725 3325
-AR Path="/5DA7421B" Ref="U106"  Part="1" 
-AR Path="/5DA5FACD/5DA7421B" Ref="U?"  Part="1" 
-F 0 "U106" H 24725 3903 50  0000 C CNN
-F 1 "ISL83483" H 24725 3812 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 24725 2425 50  0001 C CNN
-F 3 "http://www.st.com/resource/en/datasheet/st485eb.pdf" H 24725 3375 50  0001 C CNN
-F 4 "ISL83483IBZ" H 13225 -1925 50  0001 C CNN "manf#"
-	1    24725 3325
-	1    0    0    -1  
-$EndComp
-Text Label 24325 3325 2    50   ~ 0
-RS485_DE
-Wire Wire Line
-	24325 3325 24325 3425
-Text Label 25125 3225 0    50   ~ 0
-RS485_B
-Text Label 25125 3525 0    50   ~ 0
-RS485_A
-$Comp
-L Connector:Screw_Terminal_01x06 J114
-U 1 1 5DA74227
-P 26850 3050
-AR Path="/5DA74227" Ref="J114"  Part="1" 
-AR Path="/5DA5FACD/5DA74227" Ref="J?"  Part="1" 
-F 0 "J114" H 26850 3350 50  0000 C CNN
-F 1 "Screw_Terminal_01x06" V 26950 3050 50  0000 C CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-G_06x5.08mm_Angled" H 26850 3050 50  0001 C CNN
-F 3 "~" H 26850 3050 50  0001 C CNN
-F 4 "1985234" H 11400 -1400 50  0001 C CNN "manf#"
-	1    26850 3050
-	1    0    0    -1  
-$EndComp
-Text Label 26650 3050 2    50   ~ 0
-RS485_B
-Text Label 26650 2850 2    50   ~ 0
-RS485_A
-Text Label 26650 3150 2    50   ~ 0
-CAN_L
-Text Label 26650 3350 2    50   ~ 0
-CAN_H
-$Comp
-L Power_Protection:NUP2105L D102
-U 1 1 5DA74233
-P 26000 3250
-AR Path="/5DA74233" Ref="D102"  Part="1" 
-AR Path="/5DA5FACD/5DA74233" Ref="D?"  Part="1" 
-F 0 "D102" V 25658 3250 50  0000 C CNN
-F 1 "NUP2105L" V 25749 3250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 26225 3200 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 26125 3375 50  0001 C CNN
-F 4 "NUP2105L" H 11400 -700 50  0001 C CNN "manf#"
-	1    26000 3250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Power_Protection:NUP2105L D101
-U 1 1 5DA7423B
-P 26000 2900
-AR Path="/5DA7423B" Ref="D101"  Part="1" 
-AR Path="/5DA5FACD/5DA7423B" Ref="D?"  Part="1" 
-F 0 "D101" V 26342 2900 50  0000 C CNN
-F 1 "NUP2105L" V 26251 2900 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 26225 2850 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 26125 3025 50  0001 C CNN
-F 4 "NUP2105L" H 10850 -2350 50  0001 C CNN "manf#"
-	1    26000 2900
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	26200 3150 26650 3150
-Wire Wire Line
-	26200 3350 26650 3350
-Wire Wire Line
-	26250 3650 26250 3250
-Wire Wire Line
-	26250 2950 26650 2950
-Wire Wire Line
-	26650 3250 26250 3250
-Connection ~ 26250 3250
-Wire Wire Line
-	26250 3250 26250 2950
-Wire Wire Line
-	26250 3650 25800 3650
-Wire Wire Line
-	25800 3650 25800 3250
-Connection ~ 26250 3650
-Wire Wire Line
-	26200 3000 26200 3050
-Wire Wire Line
-	26200 3050 26650 3050
-Wire Wire Line
-	26650 2850 26200 2850
-Wire Wire Line
-	26200 2850 26200 2800
-Wire Wire Line
-	25800 2900 25800 3250
-Connection ~ 25800 3250
-$Comp
-L power:+3.3V #PWR0139
-U 1 1 5DA74252
-P 24675 1700
-AR Path="/5DA74252" Ref="#PWR0139"  Part="1" 
-AR Path="/5DA5FACD/5DA74252" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0139" H 24675 1550 50  0001 C CNN
-F 1 "+3.3V" V 24690 1828 50  0000 L CNN
-F 2 "" H 24675 1700 50  0001 C CNN
-F 3 "" H 24675 1700 50  0001 C CNN
-	1    24675 1700
-	0    -1   -1   0   
-$EndComp
-Text Label 24175 1900 2    50   ~ 0
-CAN_TX
-Text Label 24175 2000 2    50   ~ 0
-CAN_RX
-Text Label 25175 2000 0    50   ~ 0
-CAN_H
-Text Label 25175 2200 0    50   ~ 0
-CAN_L
-$Comp
-L power:GND #PWR0153
-U 1 1 5DA7425C
-P 25250 2925
-AR Path="/5DA7425C" Ref="#PWR0153"  Part="1" 
-AR Path="/5DA5FACD/5DA7425C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 25250 2675 50  0001 C CNN
-F 1 "GND" V 25255 2797 50  0000 R CNN
-F 2 "" H 25250 2925 50  0001 C CNN
-F 3 "" H 25250 2925 50  0001 C CNN
-	1    25250 2925
-	0    1    1    0   
-$EndComp
-$Comp
-L Interface_CAN_LIN:TCAN332 U105
-U 1 1 5DA74263
-P 24675 2100
-AR Path="/5DA74263" Ref="U105"  Part="1" 
-AR Path="/5DA5FACD/5DA74263" Ref="U?"  Part="1" 
-F 0 "U105" H 24675 2678 50  0000 C CNN
-F 1 "TCAN332" H 24675 2587 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-8" H 24675 1600 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 24675 2100 50  0001 C CNN
-F 4 "TCAN332DCNR" H 13175 -2050 50  0001 C CNN "manf#"
-	1    24675 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R117
-U 1 1 5DA7426B
-P 26475 1525
-AR Path="/5DA7426B" Ref="R117"  Part="1" 
-AR Path="/5DA5FACD/5DA7426B" Ref="R?"  Part="1" 
-F 0 "R117" V 26400 1525 50  0000 C CNN
-F 1 "2K2" V 26550 1525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 26475 1525 50  0001 C CNN
-F 3 "~" H 26475 1525 50  0001 C CNN
-F 4 "CRGCQ0805J22R" H 18925 -8475 50  0001 C CNN "manf#"
-	1    26475 1525
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R118
-U 1 1 5DA74273
-P 26475 1725
-AR Path="/5DA74273" Ref="R118"  Part="1" 
-AR Path="/5DA5FACD/5DA74273" Ref="R?"  Part="1" 
-F 0 "R118" V 26400 1725 50  0000 C CNN
-F 1 "120R" V 26550 1725 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 26475 1725 50  0001 C CNN
-F 3 "~" H 26475 1725 50  0001 C CNN
-F 4 "CRGCQ0805J22R" H 18925 -8275 50  0001 C CNN "manf#"
-	1    26475 1725
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R119
-U 1 1 5DA7427B
-P 26475 1925
-AR Path="/5DA7427B" Ref="R119"  Part="1" 
-AR Path="/5DA5FACD/5DA7427B" Ref="R?"  Part="1" 
-F 0 "R119" V 26400 1925 50  0000 C CNN
-F 1 "2K2" V 26550 1925 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 26475 1925 50  0001 C CNN
-F 3 "~" H 26475 1925 50  0001 C CNN
-F 4 "CRGCQ0805J22R" H 18925 -8075 50  0001 C CNN "manf#"
-	1    26475 1925
-	-1   0    0    1   
-$EndComp
-Text Label 26600 1825 0    50   ~ 0
-RS485_A
-Wire Wire Line
-	26475 1625 26600 1625
-Connection ~ 26475 1625
-Text Label 26600 1625 0    50   ~ 0
-RS485_B
-Wire Wire Line
-	26475 1825 26600 1825
-Connection ~ 26475 1825
-$Comp
-L Device:R_Small R114
-U 1 1 5DA74289
-P 25900 1725
-AR Path="/5DA74289" Ref="R114"  Part="1" 
-AR Path="/5DA5FACD/5DA74289" Ref="R?"  Part="1" 
-F 0 "R114" H 25958 1679 50  0000 L CNN
-F 1 "60R" H 25958 1770 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 25900 1725 50  0001 C CNN
-F 3 "~" H 25900 1725 50  0001 C CNN
-F 4 "CRGCQ0805J22R" H 18350 -8275 50  0001 C CNN "manf#"
-	1    25900 1725
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R116
-U 1 1 5DA74291
-P 26125 1725
-AR Path="/5DA74291" Ref="R116"  Part="1" 
-AR Path="/5DA5FACD/5DA74291" Ref="R?"  Part="1" 
-F 0 "R116" H 26066 1679 50  0000 R CNN
-F 1 "60R" H 26066 1770 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 26125 1725 50  0001 C CNN
-F 3 "~" H 26125 1725 50  0001 C CNN
-F 4 "CRGCQ0805J22R" H 18575 -8275 50  0001 C CNN "manf#"
-	1    26125 1725
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C131
-U 1 1 5DA74299
-P 26000 1925
-AR Path="/5DA74299" Ref="C131"  Part="1" 
-AR Path="/5DA5FACD/5DA74299" Ref="C?"  Part="1" 
-F 0 "C131" H 26092 1971 50  0000 L CNN
-F 1 "10p" H 26092 1880 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 26000 1925 50  0001 C CNN
-F 3 "~" H 26000 1925 50  0001 C CNN
-F 4 "885012207098" H 11900 -2625 50  0001 C CNN "manf#"
-	1    26000 1925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	25900 1825 26000 1825
-Connection ~ 26000 1825
-Wire Wire Line
-	26000 1825 26125 1825
-Text Label 25900 1625 1    50   ~ 0
-CAN_L
-Text Label 26125 1625 1    50   ~ 0
-CAN_H
-$Comp
-L power:GND #PWR0143
-U 1 1 5DA742A5
-P 24725 3825
-AR Path="/5DA742A5" Ref="#PWR0143"  Part="1" 
-AR Path="/5DA5FACD/5DA742A5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0143" H 24725 3575 50  0001 C CNN
-F 1 "GND" V 24730 3697 50  0000 R CNN
-F 2 "" H 24725 3825 50  0001 C CNN
-F 3 "" H 24725 3825 50  0001 C CNN
-	1    24725 3825
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0142
-U 1 1 5DA742AB
-P 24725 2925
-AR Path="/5DA742AB" Ref="#PWR0142"  Part="1" 
-AR Path="/5DA5FACD/5DA742AB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0142" H 24725 2775 50  0001 C CNN
-F 1 "+3.3V" V 24740 3053 50  0000 L CNN
-F 2 "" H 24725 2925 50  0001 C CNN
-F 3 "" H 24725 2925 50  0001 C CNN
-	1    24725 2925
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0166
-U 1 1 5DA742B1
-P 26475 1425
-AR Path="/5DA742B1" Ref="#PWR0166"  Part="1" 
-AR Path="/5DA5FACD/5DA742B1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0166" H 26475 1275 50  0001 C CNN
-F 1 "+3.3V" H 26490 1598 50  0000 C CNN
-F 2 "" H 26475 1425 50  0001 C CNN
-F 3 "" H 26475 1425 50  0001 C CNN
-	1    26475 1425
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0163
-U 1 1 5DA742B7
-P 26250 3650
-AR Path="/5DA742B7" Ref="#PWR0163"  Part="1" 
-AR Path="/5DA5FACD/5DA742B7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0163" H 26250 3400 50  0001 C CNN
-F 1 "GND" V 26255 3522 50  0000 R CNN
-F 2 "" H 26250 3650 50  0001 C CNN
-F 3 "" H 26250 3650 50  0001 C CNN
-	1    26250 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0161
-U 1 1 5DA742BD
-P 26000 2025
-AR Path="/5DA742BD" Ref="#PWR0161"  Part="1" 
-AR Path="/5DA5FACD/5DA742BD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0161" H 26000 1775 50  0001 C CNN
-F 1 "GND" H 26005 1852 50  0000 C CNN
-F 2 "" H 26000 2025 50  0001 C CNN
-F 3 "" H 26000 2025 50  0001 C CNN
-	1    26000 2025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0167
-U 1 1 5DA742C3
-P 26475 2025
-AR Path="/5DA742C3" Ref="#PWR0167"  Part="1" 
-AR Path="/5DA5FACD/5DA742C3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0167" H 26475 1775 50  0001 C CNN
-F 1 "GND" H 26480 1852 50  0000 C CNN
-F 2 "" H 26475 2025 50  0001 C CNN
-F 3 "" H 26475 2025 50  0001 C CNN
-	1    26475 2025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C126
-U 1 1 5DA742CC
-P 25175 1375
-AR Path="/5DA742CC" Ref="C126"  Part="1" 
-AR Path="/5DA5FACD/5DA742CC" Ref="C?"  Part="1" 
-F 0 "C126" H 25267 1421 50  0000 L CNN
-F 1 "0.1u" H 25267 1330 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25175 1375 50  0001 C CNN
-F 3 "~" H 25175 1375 50  0001 C CNN
-F 4 "885012207098" H 10975 275 50  0001 C CNN "manf#"
-	1    25175 1375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C127
-U 1 1 5DA742D4
-P 25250 2825
-AR Path="/5DA742D4" Ref="C127"  Part="1" 
-AR Path="/5DA5FACD/5DA742D4" Ref="C?"  Part="1" 
-F 0 "C127" H 25342 2871 50  0000 L CNN
-F 1 "0.1u" H 25342 2780 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25250 2825 50  0001 C CNN
-F 3 "~" H 25250 2825 50  0001 C CNN
-F 4 "885012207098" H 11050 1725 50  0001 C CNN "manf#"
-	1    25250 2825
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0152
-U 1 1 5DA742DB
-P 25250 2725
-AR Path="/5DA742DB" Ref="#PWR0152"  Part="1" 
-AR Path="/5DA5FACD/5DA742DB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0152" H 25250 2575 50  0001 C CNN
-F 1 "+3.3V" V 25265 2853 50  0000 L CNN
-F 2 "" H 25250 2725 50  0001 C CNN
-F 3 "" H 25250 2725 50  0001 C CNN
-	1    25250 2725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0140
-U 1 1 5DA742E1
-P 24675 2500
-AR Path="/5DA742E1" Ref="#PWR0140"  Part="1" 
-AR Path="/5DA5FACD/5DA742E1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0140" H 24675 2250 50  0001 C CNN
-F 1 "GND" V 24680 2372 50  0000 R CNN
-F 2 "" H 24675 2500 50  0001 C CNN
-F 3 "" H 24675 2500 50  0001 C CNN
-	1    24675 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0150
-U 1 1 5DA742E7
-P 25175 1275
-AR Path="/5DA742E7" Ref="#PWR0150"  Part="1" 
-AR Path="/5DA5FACD/5DA742E7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0150" H 25175 1125 50  0001 C CNN
-F 1 "+3.3V" V 25190 1403 50  0000 L CNN
-F 2 "" H 25175 1275 50  0001 C CNN
-F 3 "" H 25175 1275 50  0001 C CNN
-	1    25175 1275
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0151
-U 1 1 5DA742ED
-P 25175 1475
-AR Path="/5DA742ED" Ref="#PWR0151"  Part="1" 
-AR Path="/5DA5FACD/5DA742ED" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0151" H 25175 1225 50  0001 C CNN
-F 1 "GND" V 25180 1347 50  0000 R CNN
-F 2 "" H 25175 1475 50  0001 C CNN
-F 3 "" H 25175 1475 50  0001 C CNN
-	1    25175 1475
-	0    1    1    0   
-$EndComp
-Text GLabel 24325 3225 0    50   Input ~ 0
-RS485_RX
-Text GLabel 24325 3525 0    50   Input ~ 0
-RS485_TX
 Text Label 26200 5650 2    50   ~ 0
 C_USBD_D-
 Text Label 26200 5550 2    50   ~ 0
@@ -2218,16 +1792,6 @@ Wire Notes Line
 	27400 9100 23700 9100
 Wire Notes Line
 	23700 9100 23700 5100
-Wire Notes Line
-	23800 1150 27200 1150
-Wire Notes Line
-	27200 1150 27200 4000
-Wire Notes Line
-	27200 4000 23800 4000
-Wire Notes Line
-	23800 4000 23800 1150
-Text Notes 23900 1300 0    50   ~ 0
-RS485 y CAN
 Wire Notes Line
 	12900 1000 16250 1000
 Wire Notes Line
@@ -2756,22 +2320,6 @@ F 3 "" H 25150 11650 50  0001 C CNN
 	1    25150 11650
 	-1   0    0    -1  
 $EndComp
-Text Label 23750 12700 2    50   ~ 0
-PD8
-Text Label 24250 12700 0    50   ~ 0
-PD9
-Text Label 23750 12800 2    50   ~ 0
-PD10
-Text Label 24250 12800 0    50   ~ 0
-PD11
-Text Label 23750 12900 2    50   ~ 0
-PD12
-Text Label 24250 12900 0    50   ~ 0
-PD13
-Text Label 23750 13000 2    50   ~ 0
-PD14
-Text Label 24250 13000 0    50   ~ 0
-PD15
 Text Label 23750 13100 2    50   ~ 0
 PC6
 Text Label 24250 13100 0    50   ~ 0
@@ -2780,18 +2328,6 @@ Text Label 23750 13200 2    50   ~ 0
 PC9
 Text Label 24250 13200 0    50   ~ 0
 PA8
-Text Label 24250 12600 0    50   ~ 0
-PB10
-Text Label 23750 12400 2    50   ~ 0
-PE11
-Text Label 24250 12400 0    50   ~ 0
-PE12
-Text Label 23750 12500 2    50   ~ 0
-PE13
-Text Label 24250 12500 0    50   ~ 0
-PE14
-Text Label 23750 12600 2    50   ~ 0
-PE15
 Wire Wire Line
 	23750 12300 23750 12200
 Wire Wire Line
@@ -3818,13 +3354,9 @@ F 9 "71V416L15PHG8" H 7450 9250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 Text Label 2100 6650 2    50   ~ 0
-MA4
+MA4-u
 Text Label 2100 6550 2    50   ~ 0
-MA3
-Text Label 3900 8250 0    50   ~ 0
-RS485_TX
-Text Label 3900 8150 0    50   ~ 0
-RS485_RX
+MA3-u
 Text Label 10600 7350 2    50   ~ 0
 MD0-MVB
 Text Label 6400 10550 2    50   ~ 0
@@ -3896,95 +3428,89 @@ MD14-MVB
 Text Label 10600 5850 2    50   ~ 0
 MD15-MVB
 Text Label 12600 4550 0    50   ~ 0
-MA1
+MA1-MVB
 Text Label 12600 4650 0    50   ~ 0
-MA2
+MA2-MVB
 Text Label 12600 4750 0    50   ~ 0
-MA3
+MA3-MVB
 Text Label 12600 4850 0    50   ~ 0
-MA4
+MA4-MVB
 Text Label 12600 4950 0    50   ~ 0
-MA5
+MA5-MVB
 Text Label 12600 5050 0    50   ~ 0
-MA6
+MA6-MVB
 Text Label 12600 5150 0    50   ~ 0
-MA7
+MA7-MVB
 Text Label 12600 5250 0    50   ~ 0
-MA8
+MA8-MVB
 Text Label 12600 5350 0    50   ~ 0
-MA9
+MA9-MVB
 Text Label 12600 5450 0    50   ~ 0
-MA10
+MA10-MVB
 Text Label 12600 5550 0    50   ~ 0
-MA11
+MA11-MVB
 Text Label 12600 5650 0    50   ~ 0
-MA12
+MA12-MVB
 Text Label 12600 5750 0    50   ~ 0
-MA13
+MA13-MVB
 Text Label 12600 5850 0    50   ~ 0
-MA14
+MA14-MVB
 Text Label 12600 5950 0    50   ~ 0
-MA15
+MA15-MVB
 Text Label 12600 6050 0    50   ~ 0
-MA16
+MA16-MVB
 Text Label 12600 6150 0    50   ~ 0
-MA17
+MA17-MVB
 Text Label 12600 6250 0    50   ~ 0
-MA18
-Text Label 12600 6350 0    50   ~ 0
-MA19
+MA18-MVB
 Text Label 6400 9850 2    50   ~ 0
-MA1
+MA1-MVB
 Text Label 6400 9950 2    50   ~ 0
-MA2
+MA2-MVB
 Text Label 6400 10050 2    50   ~ 0
-MA3
+MA3-MVB
 Text Label 6400 10150 2    50   ~ 0
-MA4
+MA4-MVB
 Text Label 6400 10250 2    50   ~ 0
-MA5
+MA5-MVB
 Text Label 6400 11550 2    50   ~ 0
-MA6
+MA6-MVB
 Text Label 6400 11650 2    50   ~ 0
-MA7
+MA7-MVB
 Text Label 6400 11750 2    50   ~ 0
-MA8
+MA8-MVB
 Text Label 6400 11850 2    50   ~ 0
-MA9
+MA9-MVB
 Text Label 6400 11950 2    50   ~ 0
-MA10
+MA10-MVB
 Text Label 7600 11950 0    50   ~ 0
-MA11
+MA11-MVB
 Text Label 7600 11850 0    50   ~ 0
-MA12
+MA12-MVB
 Text Label 7600 11750 0    50   ~ 0
-MA13
+MA13-MVB
 Text Label 7600 11650 0    50   ~ 0
-MA14
+MA14-MVB
 Text Label 7600 11550 0    50   ~ 0
-MA15
+MA15-MVB
 Text Label 7600 10050 0    50   ~ 0
-MA16
+MA16-MVB
 Text Label 7600 9950 0    50   ~ 0
-MA17
+MA17-MVB
 Text Label 7600 9850 0    50   ~ 0
-MA18
+MA18-MVB
 Text Label 2100 6350 2    50   ~ 0
-MA1
+MA1-u
 Text Label 2100 6450 2    50   ~ 0
-MA2
+MA2-u
 Text Label 2100 7050 2    50   ~ 0
-MA8
+MA8-u
 Text Label 2100 7150 2    50   ~ 0
-MA9
+MA9-u
 Text Label 2100 7250 2    50   ~ 0
-MA10
+MA10-u
 Text Label 2100 7350 2    50   ~ 0
-MA11
-Text Label 3900 8850 0    50   ~ 0
-MA17
-Text Label 3900 8950 0    50   ~ 0
-MA18
+MA11-u
 $Comp
 L power:GND #PWR0188
 U 1 1 5DFE2514
@@ -4356,4 +3882,136 @@ Wire Wire Line
 Connection ~ 5350 8200
 Wire Wire Line
 	5350 8200 5350 9000
+Text Label 12600 8150 0    50   ~ 0
+OE-A_EN
+Text Label 5850 5800 2    50   ~ 0
+OE-A_EN
+NoConn ~ 3900 9350
+Text Label 8450 5900 0    50   ~ 0
+MA1-u
+Text Label 8450 6000 0    50   ~ 0
+MA2-u
+Text Label 8450 6200 0    50   ~ 0
+MA3-u
+Text Label 8450 6300 0    50   ~ 0
+MA4-u
+Text Label 8450 6500 0    50   ~ 0
+MA5-u
+Text Label 8450 6600 0    50   ~ 0
+MA6-u
+Text Label 8450 6700 0    50   ~ 0
+MA7-u
+Text Label 8450 6900 0    50   ~ 0
+MA8-u
+Text Label 8450 7000 0    50   ~ 0
+MA9-u
+Text Label 8450 7100 0    50   ~ 0
+MA10-u
+Text Label 8450 7200 0    50   ~ 0
+MA11-u
+Text Label 8450 7300 0    50   ~ 0
+MA12-u
+Text Label 8450 7400 0    50   ~ 0
+MA13-u
+Text Label 8450 7600 0    50   ~ 0
+MA14-u
+Text Label 8450 7700 0    50   ~ 0
+MA15-u
+Text Label 8450 7800 0    50   ~ 0
+MA16-u
+Wire Wire Line
+	8450 8000 8450 8100
+Wire Wire Line
+	8450 8200 8450 8300
+Connection ~ 8450 8200
+Wire Wire Line
+	8450 8400 8450 8300
+Connection ~ 8450 8300
+Wire Wire Line
+	8450 8100 8450 8200
+Connection ~ 8450 8100
+Text Label 8450 5800 0    50   ~ 0
+OE-A_EN
+Text Label 5850 8500 2    50   ~ 0
+OE-A_EN
+Text Label 8450 8500 0    50   ~ 0
+OE-A_EN
+NoConn ~ 12600 6350
+Text Label 5850 5900 2    50   ~ 0
+MA1-MVB
+Text Label 5850 6000 2    50   ~ 0
+MA2-MVB
+Text Label 5850 6200 2    50   ~ 0
+MA3-MVB
+Text Label 5850 6300 2    50   ~ 0
+MA4-MVB
+Text Label 5850 6500 2    50   ~ 0
+MA5-MVB
+Text Label 5850 6600 2    50   ~ 0
+MA6-MVB
+Text Label 5850 6700 2    50   ~ 0
+MA7-MVB
+Text Label 5850 6900 2    50   ~ 0
+MA8-MVB
+Text Label 5850 7000 2    50   ~ 0
+MA9-MVB
+Text Label 5850 7100 2    50   ~ 0
+MA10-MVB
+Text Label 5850 7200 2    50   ~ 0
+MA11-MVB
+Text Label 5850 7300 2    50   ~ 0
+MA12-MVB
+Text Label 5850 7400 2    50   ~ 0
+MA13-MVB
+Text Label 5850 7600 2    50   ~ 0
+MA14-MVB
+Text Label 5850 7700 2    50   ~ 0
+MA15-MVB
+Text Label 5850 7800 2    50   ~ 0
+MA16-MVB
+Text Label 5850 8000 2    50   ~ 0
+MA17-MVB
+Text Label 5850 8100 2    50   ~ 0
+MA18-MVB
+NoConn ~ 5850 8300
+NoConn ~ 5850 8400
+Wire Wire Line
+	10600 4550 10600 4650
+Wire Wire Line
+	10600 4650 10600 4750
+Connection ~ 10600 4650
+Connection ~ 10600 4750
+Wire Wire Line
+	10600 4750 10600 4850
+Connection ~ 10600 4850
+Wire Wire Line
+	10600 4850 10600 4950
+Wire Wire Line
+	10600 4950 10600 5050
+Connection ~ 10600 4950
+Wire Wire Line
+	10600 5050 10600 5150
+Connection ~ 10600 5050
+Wire Wire Line
+	10600 5250 10600 5350
+Wire Wire Line
+	10600 5150 10600 5250
+Connection ~ 10600 5150
+Connection ~ 10600 5250
+Wire Wire Line
+	10600 5350 10600 5450
+Connection ~ 10600 5350
+Wire Wire Line
+	10600 5450 10600 5550
+Connection ~ 10600 5450
+Wire Wire Line
+	10600 5550 10600 5650
+Connection ~ 10600 5550
+Wire Wire Line
+	10600 4550 10600 4300
+Wire Wire Line
+	10600 4300 10250 4300
+Connection ~ 10600 4550
+Text Label 4250 4950 0    50   ~ 0
+INPUT
 $EndSCHEMATC

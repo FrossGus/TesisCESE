@@ -617,21 +617,21 @@ MD14-u
 Text Label 2100 9550 2    50   ~ 0
 MD15-u
 Text Label 2100 6750 2    50   ~ 0
-MA5
+MA5-u
 Text Label 2100 6850 2    50   ~ 0
-MA6
+MA6-u
 Text Label 2100 6950 2    50   ~ 0
-MA7
+MA7-u
 Text Label 2100 7450 2    50   ~ 0
-MA12
+MA12-u
 Text Label 2100 7550 2    50   ~ 0
-MA13
+MA13-u
 Text Label 2100 7650 2    50   ~ 0
-MA14
+MA14-u
 Text Label 2100 7750 2    50   ~ 0
-MA15
+MA15-u
 Text Label 2100 7850 2    50   ~ 0
-MA16
+MA16-u
 Text Label 4550 6350 0    50   ~ 0
 PB0
 Text Label 3900 6450 0    50   ~ 0
@@ -678,8 +678,6 @@ Text Label 4650 8950 0    50   ~ 0
 PC9
 Text Label 3900 9050 0    50   ~ 0
 PC10
-Text Label 3900 9350 0    50   ~ 0
-MA19
 Wire Wire Line
 	3200 9850 3400 9850
 Connection ~ 3200 9850
@@ -3818,9 +3816,9 @@ F 9 "71V416L15PHG8" H 7450 9250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 Text Label 2100 6650 2    50   ~ 0
-MA4
+MA4-u
 Text Label 2100 6550 2    50   ~ 0
-MA3
+MA3-u
 Text Label 3900 8250 0    50   ~ 0
 RS485_TX
 Text Label 3900 8150 0    50   ~ 0
@@ -3896,95 +3894,89 @@ MD14-MVB
 Text Label 10600 5850 2    50   ~ 0
 MD15-MVB
 Text Label 12600 4550 0    50   ~ 0
-MA1
+MA1-MVB
 Text Label 12600 4650 0    50   ~ 0
-MA2
+MA2-MVB
 Text Label 12600 4750 0    50   ~ 0
-MA3
+MA3-MVB
 Text Label 12600 4850 0    50   ~ 0
-MA4
+MA4-MVB
 Text Label 12600 4950 0    50   ~ 0
-MA5
+MA5-MVB
 Text Label 12600 5050 0    50   ~ 0
-MA6
+MA6-MVB
 Text Label 12600 5150 0    50   ~ 0
-MA7
+MA7-MVB
 Text Label 12600 5250 0    50   ~ 0
-MA8
+MA8-MVB
 Text Label 12600 5350 0    50   ~ 0
-MA9
+MA9-MVB
 Text Label 12600 5450 0    50   ~ 0
-MA10
+MA10-MVB
 Text Label 12600 5550 0    50   ~ 0
-MA11
+MA11-MVB
 Text Label 12600 5650 0    50   ~ 0
-MA12
+MA12-MVB
 Text Label 12600 5750 0    50   ~ 0
-MA13
+MA13-MVB
 Text Label 12600 5850 0    50   ~ 0
-MA14
+MA14-MVB
 Text Label 12600 5950 0    50   ~ 0
-MA15
+MA15-MVB
 Text Label 12600 6050 0    50   ~ 0
-MA16
+MA16-MVB
 Text Label 12600 6150 0    50   ~ 0
-MA17
+MA17-MVB
 Text Label 12600 6250 0    50   ~ 0
-MA18
-Text Label 12600 6350 0    50   ~ 0
-MA19
+MA18-MVB
 Text Label 6400 9850 2    50   ~ 0
-MA1
+MA1-MVB
 Text Label 6400 9950 2    50   ~ 0
-MA2
+MA2-MVB
 Text Label 6400 10050 2    50   ~ 0
-MA3
+MA3-MVB
 Text Label 6400 10150 2    50   ~ 0
-MA4
+MA4-MVB
 Text Label 6400 10250 2    50   ~ 0
-MA5
+MA5-MVB
 Text Label 6400 11550 2    50   ~ 0
-MA6
+MA6-MVB
 Text Label 6400 11650 2    50   ~ 0
-MA7
+MA7-MVB
 Text Label 6400 11750 2    50   ~ 0
-MA8
+MA8-MVB
 Text Label 6400 11850 2    50   ~ 0
-MA9
+MA9-MVB
 Text Label 6400 11950 2    50   ~ 0
-MA10
+MA10-MVB
 Text Label 7600 11950 0    50   ~ 0
-MA11
+MA11-MVB
 Text Label 7600 11850 0    50   ~ 0
-MA12
+MA12-MVB
 Text Label 7600 11750 0    50   ~ 0
-MA13
+MA13-MVB
 Text Label 7600 11650 0    50   ~ 0
-MA14
+MA14-MVB
 Text Label 7600 11550 0    50   ~ 0
-MA15
+MA15-MVB
 Text Label 7600 10050 0    50   ~ 0
-MA16
+MA16-MVB
 Text Label 7600 9950 0    50   ~ 0
-MA17
+MA17-MVB
 Text Label 7600 9850 0    50   ~ 0
-MA18
+MA18-MVB
 Text Label 2100 6350 2    50   ~ 0
-MA1
+MA1-u
 Text Label 2100 6450 2    50   ~ 0
-MA2
+MA2-u
 Text Label 2100 7050 2    50   ~ 0
-MA8
+MA8-u
 Text Label 2100 7150 2    50   ~ 0
-MA9
+MA9-u
 Text Label 2100 7250 2    50   ~ 0
-MA10
+MA10-u
 Text Label 2100 7350 2    50   ~ 0
-MA11
-Text Label 3900 8850 0    50   ~ 0
-MA17
-Text Label 3900 8950 0    50   ~ 0
-MA18
+MA11-u
 $Comp
 L power:GND #PWR0188
 U 1 1 5DFE2514
@@ -4267,57 +4259,225 @@ MD15-MVB
 $Comp
 L power:GND #PWR?
 U 1 1 5E183ACF
-P 7000 9000
+P 7150 9000
 AR Path="/5E183ACF" Ref="#PWR?"  Part="1" 
 AR Path="/5DA2C15A/5E183ACF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7000 8750 50  0001 C CNN
-F 1 "GND" H 7005 8827 50  0000 C CNN
-F 2 "" H 7000 9000 50  0001 C CNN
-F 3 "" H 7000 9000 50  0001 C CNN
-	1    7000 9000
+F 0 "#PWR?" H 7150 8750 50  0001 C CNN
+F 1 "GND" H 7155 8827 50  0000 C CNN
+F 2 "" H 7150 9000 50  0001 C CNN
+F 3 "" H 7150 9000 50  0001 C CNN
+	1    7150 9000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E2401F8
+P 7150 5250
+AR Path="/5E2401F8" Ref="#PWR?"  Part="1" 
+AR Path="/5DA2C15A/5E2401F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7150 5100 50  0001 C CNN
+F 1 "+3.3V" V 7150 5500 50  0000 C CNN
+F 2 "" H 7150 5250 50  0001 C CNN
+F 3 "" H 7150 5250 50  0001 C CNN
+	1    7150 5250
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	8450 6100 8700 6100
+	5850 6400 5300 6400
 Wire Wire Line
-	8700 6100 8700 6800
+	5300 6400 5300 5250
 Wire Wire Line
-	8700 9000 7000 9000
+	5300 5250 7150 5250
 Wire Wire Line
-	8450 6800 8700 6800
-Connection ~ 8700 6800
+	8450 6400 9000 6400
 Wire Wire Line
-	8450 7500 8700 7500
+	9000 6400 9000 5250
 Wire Wire Line
-	8700 6800 8700 7500
-Connection ~ 8700 7500
+	9000 5250 7150 5250
+Connection ~ 7150 5250
 Wire Wire Line
-	8700 7500 8700 8200
+	5850 7900 5300 7900
 Wire Wire Line
-	8450 8200 8700 8200
-Connection ~ 8700 8200
+	5300 7900 5300 6400
+Connection ~ 5300 6400
 Wire Wire Line
-	8700 8200 8700 9000
+	8450 7900 9000 7900
 Wire Wire Line
-	5850 6100 5600 6100
+	9000 7900 9000 6400
+Connection ~ 9000 6400
 Wire Wire Line
-	5600 9000 7000 9000
-Connection ~ 7000 9000
+	7150 9000 8950 9000
 Wire Wire Line
-	5850 8200 5600 8200
-Connection ~ 5600 8200
+	8950 9000 8950 8200
 Wire Wire Line
-	5600 8200 5600 9000
+	8950 6100 8450 6100
 Wire Wire Line
-	5850 7500 5600 7500
-Connection ~ 5600 7500
+	8450 6800 8950 6800
+Connection ~ 8950 6800
 Wire Wire Line
-	5600 7500 5600 8200
+	8950 6800 8950 6100
 Wire Wire Line
-	5850 6800 5600 6800
+	8450 7500 8950 7500
+Connection ~ 8950 7500
 Wire Wire Line
-	5600 6100 5600 6800
-Connection ~ 5600 6800
+	8950 7500 8950 6800
 Wire Wire Line
-	5600 6800 5600 7500
+	8450 8200 8950 8200
+Connection ~ 8950 8200
+Wire Wire Line
+	8950 8200 8950 7500
+Wire Wire Line
+	7150 9000 5350 9000
+Connection ~ 7150 9000
+Wire Wire Line
+	5850 6100 5350 6100
+Wire Wire Line
+	5850 6800 5350 6800
+Connection ~ 5350 6800
+Wire Wire Line
+	5350 6800 5350 6100
+Wire Wire Line
+	5850 7500 5350 7500
+Connection ~ 5350 7500
+Wire Wire Line
+	5350 7500 5350 6800
+Wire Wire Line
+	5850 8200 5350 8200
+Wire Wire Line
+	5350 7500 5350 8200
+Connection ~ 5350 8200
+Wire Wire Line
+	5350 8200 5350 9000
+Text Label 12600 8150 0    50   ~ 0
+OE-A_EN
+Text Label 5850 5800 2    50   ~ 0
+OE-A_EN
+NoConn ~ 3900 8850
+NoConn ~ 3900 8950
+NoConn ~ 3900 9350
+Text Label 8450 5900 0    50   ~ 0
+MA1-u
+Text Label 8450 6000 0    50   ~ 0
+MA2-u
+Text Label 8450 6200 0    50   ~ 0
+MA3-u
+Text Label 8450 6300 0    50   ~ 0
+MA4-u
+Text Label 8450 6500 0    50   ~ 0
+MA5-u
+Text Label 8450 6600 0    50   ~ 0
+MA6-u
+Text Label 8450 6700 0    50   ~ 0
+MA7-u
+Text Label 8450 6900 0    50   ~ 0
+MA8-u
+Text Label 8450 7000 0    50   ~ 0
+MA9-u
+Text Label 8450 7100 0    50   ~ 0
+MA10-u
+Text Label 8450 7200 0    50   ~ 0
+MA11-u
+Text Label 8450 7300 0    50   ~ 0
+MA12-u
+Text Label 8450 7400 0    50   ~ 0
+MA13-u
+Text Label 8450 7600 0    50   ~ 0
+MA14-u
+Text Label 8450 7700 0    50   ~ 0
+MA15-u
+Text Label 8450 7800 0    50   ~ 0
+MA16-u
+Wire Wire Line
+	8450 8000 8450 8100
+Wire Wire Line
+	8450 8200 8450 8300
+Connection ~ 8450 8200
+Wire Wire Line
+	8450 8400 8450 8300
+Connection ~ 8450 8300
+Wire Wire Line
+	8450 8100 8450 8200
+Connection ~ 8450 8100
+Text Label 8450 5800 0    50   ~ 0
+OE-A_EN
+Text Label 5850 8500 2    50   ~ 0
+OE-A_EN
+Text Label 8450 8500 0    50   ~ 0
+OE-A_EN
+NoConn ~ 12600 6350
+Text Label 5850 5900 2    50   ~ 0
+MA1-MVB
+Text Label 5850 6000 2    50   ~ 0
+MA2-MVB
+Text Label 5850 6200 2    50   ~ 0
+MA3-MVB
+Text Label 5850 6300 2    50   ~ 0
+MA4-MVB
+Text Label 5850 6500 2    50   ~ 0
+MA5-MVB
+Text Label 5850 6600 2    50   ~ 0
+MA6-MVB
+Text Label 5850 6700 2    50   ~ 0
+MA7-MVB
+Text Label 5850 6900 2    50   ~ 0
+MA8-MVB
+Text Label 5850 7000 2    50   ~ 0
+MA9-MVB
+Text Label 5850 7100 2    50   ~ 0
+MA10-MVB
+Text Label 5850 7200 2    50   ~ 0
+MA11-MVB
+Text Label 5850 7300 2    50   ~ 0
+MA12-MVB
+Text Label 5850 7400 2    50   ~ 0
+MA13-MVB
+Text Label 5850 7600 2    50   ~ 0
+MA14-MVB
+Text Label 5850 7700 2    50   ~ 0
+MA15-MVB
+Text Label 5850 7800 2    50   ~ 0
+MA16-MVB
+Text Label 5850 8000 2    50   ~ 0
+MA17-MVB
+Text Label 5850 8100 2    50   ~ 0
+MA18-MVB
+NoConn ~ 5850 8300
+NoConn ~ 5850 8400
+Wire Wire Line
+	10600 4550 10600 4650
+Wire Wire Line
+	10600 4650 10600 4750
+Connection ~ 10600 4650
+Connection ~ 10600 4750
+Wire Wire Line
+	10600 4750 10600 4850
+Connection ~ 10600 4850
+Wire Wire Line
+	10600 4850 10600 4950
+Wire Wire Line
+	10600 4950 10600 5050
+Connection ~ 10600 4950
+Wire Wire Line
+	10600 5050 10600 5150
+Connection ~ 10600 5050
+Wire Wire Line
+	10600 5250 10600 5350
+Wire Wire Line
+	10600 5150 10600 5250
+Connection ~ 10600 5150
+Connection ~ 10600 5250
+Wire Wire Line
+	10600 5350 10600 5450
+Connection ~ 10600 5350
+Wire Wire Line
+	10600 5450 10600 5550
+Connection ~ 10600 5450
+Wire Wire Line
+	10600 5550 10600 5650
+Connection ~ 10600 5550
+Wire Wire Line
+	10600 4550 10600 4300
+Wire Wire Line
+	10600 4300 10250 4300
+Connection ~ 10600 4550
 $EndSCHEMATC
