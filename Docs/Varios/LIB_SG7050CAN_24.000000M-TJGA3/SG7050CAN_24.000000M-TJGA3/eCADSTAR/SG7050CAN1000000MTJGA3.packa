@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SG7050CAN_24_000000M-TJGA3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-02-11:43:12)
+    (mountForm default
+        (footprintRef "SG7050CAN1000000MTJGA3")
+        (spec "System")
+    )
+)

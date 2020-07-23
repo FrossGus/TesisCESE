@@ -1,0 +1,16 @@
+.SG7050CAN_24.000000M-TJGA3 :1 ;Standard Clock Oscillators 24MHz 50ppm -40C +85C
+SG7050CAN1000000MTJGA3
+*STM Y
+*NGS
+*PLB 1="OE/'ST'" 2="GND" 3="OUT" 4="VCC"
+*MXP 4
+*DFN SG7050CAN_24.000000M-TJGA3
+~!Mouser Part Number (732-7050CA24.0TJGA3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Epson-Timing/SG7050CAN-24000000M-TJGA3?qs=6J2kD0vu%2F2XV2dC0UpuWJQ%3D%3D)
+~!Manufacturer_Name (Epson Timing)
+~!Manufacturer_Part_Number (SG7050CAN 24.000000M-TJGA3)
+~!Link Datasheet (https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN_en.pdf)
+~!Height (1.5mm)
+~!3D_Model (SG7050CAN_24.000000M-TJGA3)
+SG7050CAN_24.000000M-TJGA3
+1.1!U 2.1!U 3.1!U 4.1!U 

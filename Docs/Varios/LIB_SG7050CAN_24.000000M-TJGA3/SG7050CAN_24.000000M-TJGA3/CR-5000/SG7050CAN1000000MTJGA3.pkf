@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SG7050CAN1000000MTJGA3"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SG7050CAN1000000MTJGA3")
+        (spec "default")
+    )
+)

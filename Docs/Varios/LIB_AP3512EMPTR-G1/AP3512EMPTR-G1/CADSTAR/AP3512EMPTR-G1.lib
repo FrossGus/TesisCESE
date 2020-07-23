@@ -1,0 +1,16 @@
+.AP3512EMPTR-G1 :1 ;18V 2A Sync DC-DC Buck Converter PSOP8 DiodesZetex AP3512EMPTR-G1, Buck Converter, 2A, Adjustable, 3.3 (Max.) V, 8-Pin PSOP
+SOIC127P600X155-9N
+*STM IC
+*NGS
+*PLB 1="BS" 2="IN" 3="SW" 4="GND" 5="FB" 6="COMP" 7="EN" 8="SS" 9="EP"
+*MXP 9
+*DFN AP3512EMPTR-G1
+~!Mouser Part Number (621-AP3512EMPTR-G1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP3512EMPTR-G1?qs=x6A8l6qLYDAUQ0hVzXyp4Q%3D%3D)
+~!Manufacturer_Name (Diodes Inc.)
+~!Manufacturer_Part_Number (AP3512EMPTR-G1)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/AP3512E.pdf)
+~!Height (1.55mm)
+~!3D_Model (AP3512EMPTR-G1)
+AP3512EMPTR-G1
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

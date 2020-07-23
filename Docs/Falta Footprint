@@ -1,0 +1,24 @@
+The following errors occurred attempting to convert the footprint assignments: 
+
+Component "U101" footprint "LQFP-144_STM" was not found in any library.
+
+Component "U102" footprint "DGG48" was not found in any library.
+
+Component "U103" footprint "DGV56" was not found in any library.
+
+Component "U113" footprint "TSOP-44" was not found in any library.
+
+Component "U114" footprint "SOIC8_4X5_INR" was not found in any library.
+
+Component "U115" footprint "SOIC8_4X5_INR" was not found in any library.
+
+Component "U116" footprint "SOIC8_4X5_INR" was not found in any library.
+
+Component "U117" footprint "SOIC8_4X5_INR" was not found in any library.
+
+Component "U118" footprint "SOIC8_4X5_INR" was not found in any library.
+
+Component "U119" footprint "SOIC_05WU-7_DIO" was not found in any library.
+
+Component "Y104" footprint "SG7050CAN1000000MTJGA3" was not found in any library.
+You will need to reassign them manually if you want them to be updated correctly the next time you import the netlist in Pcbnew.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SG7050CAN_24.000000M-TJGA3
+D Standard Clock Oscillators 24MHz 50ppm -40C +85C
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN_en.pdf
+$ENDCMP
+#
+#End Doc Library

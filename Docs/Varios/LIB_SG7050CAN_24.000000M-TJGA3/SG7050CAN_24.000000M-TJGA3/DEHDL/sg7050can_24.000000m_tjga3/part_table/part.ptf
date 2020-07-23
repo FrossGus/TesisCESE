@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SG7050CAN_24.000000M_TJGA3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Epson Timing", "SG7050CAN 24.000000M-TJGA3" (!) = "", "SG7050CAN1000000MTJGA3", "Other", "732-7050CA24.0TJGA3", "https://www.mouser.co.uk/ProductDetail/Epson-Timing/SG7050CAN-24000000M-TJGA3?qs=6J2kD0vu%2F2XV2dC0UpuWJQ%3D%3D", "Standard Clock Oscillators 24MHz 50ppm -40C +85C", "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN_en.pdf", "1.5 mm"
+END_PART
+
+END.

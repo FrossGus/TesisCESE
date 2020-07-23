@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=AP3512EMPTR-G1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=2.1
+Released=2018-01-03 10:23:47
+Downloaded=2020-07-21 22:28:07
+3D=Y
