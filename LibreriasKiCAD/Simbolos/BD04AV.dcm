@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BD04AV
+D BD04AV (DIP & SIP Switches)
+K
+F https://www.ckswitches.com/media/1331/bd.pdf
+$ENDCMP
+#
+#End Doc Library

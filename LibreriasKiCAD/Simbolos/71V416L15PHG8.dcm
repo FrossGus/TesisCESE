@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 71V416L15PHG8
+D SRAM 256Kx16 ASYNCHRONOUS 3.3V CMOS SRAM
+K
+F https://componentsearchengine.com/Datasheets/1/71V416L15PHG8.pdf
+$ENDCMP
+#
+#End Doc Library

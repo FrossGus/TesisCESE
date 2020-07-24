@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP3512EMPTR-G1
+D 18V 2A Sync DC-DC Buck Converter PSOP8 DiodesZetex AP3512EMPTR-G1, Buck Converter, 2A, Adjustable, 3.3 (Max.) V, 8-Pin PSOP
+K
+F https://www.diodes.com/assets/Datasheets/AP3512E.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S25FL127SABMFI101
+D Flash,128Mbit,QSPI,108MHz,3V,SOIC8 S25FL127SABMFI101, SPI NOR Flash Memory, 128M x 1 bit, 32M x 4 bit, 64M x 2 bit 128Mbit, 2.7  3.6 V, 8-Pin
+K
+F 
+$ENDCMP
+#
+#End Doc Library
