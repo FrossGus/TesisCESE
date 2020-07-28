@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  2020-07-24 01:24:43
+PCBNEW-LibModule-V1  2020-07-24 23:50:20
 # encoding utf-8
 Units mm
 $INDEX
 BD04AV
 $EndINDEX
 $MODULE BD04AV
-Po 0 0 0 15 5f1a2a4b 00000000 ~~
+Po 0 0 0 15 5f1b65ac 00000000 ~~
 Li BD04AV
 Cd BD04AV-1
 Kw Switch

@@ -1,0 +1,9 @@
+Manufacturer=E-Switch
+PartNumber=TL3342F160QG
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2019-09-24 12:05:32
+Downloaded=2020-07-25 04:17:46
+3D=Y

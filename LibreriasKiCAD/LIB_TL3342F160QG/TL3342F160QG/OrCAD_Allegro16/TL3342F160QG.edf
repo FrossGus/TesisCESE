@@ -1,0 +1,116 @@
+
+(EDIF
+  (rename &TL3342F160QG "TL3342F160QG")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2020 07 25 04 17 46)
+      (dataOrigin "1032563/155094/2.47/4/4/Switch")
+      (program "SamacSys ECAD Model TL3342F160QG"
+        (version "1.2"))))
+  (library
+  (rename &TL3342F160QG "TL3342F160QG")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &TL3342F160QG "TL3342F160QG")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "S")
+          (property (rename PACKAGENAME "PackageName") (string "TL3342F160QG"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "TL3342F160QG"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "612-TL3342F160"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3342F160QG?qs=6C6BR4UgC3N80rVVEktZJA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "E-Switch"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "TL3342F160QG"))
+          (property (rename &Description "Description") (string "E-SWITCH - TL3342F160QG - SWITCH, TACTILE, SPST-NO, 50mA, 12VDC"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://componentsearchengine.com/Datasheets/1/TL3342F160QG.pdf"))
+          (property (rename &Height "Height") (string "1.54 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "TL3342F160QG"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &4 "4")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -200) (pt 600 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -200))))
+            )
+            (portImplementation
+              (name &3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &4 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -100) (pt 600 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 400 0)
+                  (pt 400 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 30))))
+          )
+        )
+      )
+    )
+  )
+)

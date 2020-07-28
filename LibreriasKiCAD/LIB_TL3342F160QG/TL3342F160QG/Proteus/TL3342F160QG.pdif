@@ -1,0 +1,148 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TL3342F160QG"
+   (description "E-SWITCH - TL3342F160QG - SWITCH, TACTILE, SPST-NO, 50mA, 12VDC")
+   (family "SWI")
+   (package "TL3342F160QG")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/TL3342F160QG.pdf")
+   (attribute "Geometry.Height" "1.54mm")
+   (attribute "Mouser Part Number" "612-TL3342F160")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3342F160QG?qs=6C6BR4UgC3N80rVVEktZJA%3D%3D")
+   (attribute "Manufacturer_Name" "E-Switch")
+   (attribute "Manufacturer_Part_Number" "TL3342F160QG")
+   (gate
+    (symbol "TL3342F160QG")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "TL3342F160QG"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TL3342F160QG"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.6 -2.6)
+      (pt 2.6 -2.6)
+      (pt 2.6 2.6)
+      (pt -2.6 2.6)
+      (pt -2.6 -2.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 2.6)
+      (pt 1.5 2.6)
+      (pt 1.5 2.6)
+      (pt -1.75 2.6)
+      (pt -1.75 2.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.6 0.75)
+      (pt -2.6 0.75)
+      (pt -2.6 -0.75)
+      (pt -2.6 -0.75)
+      (pt -2.6 0.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.6 0.75)
+      (pt 2.6 0.75)
+      (pt 2.6 -0.75)
+      (pt 2.6 -0.75)
+      (pt 2.6 0.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 -2.6)
+      (pt 1.5 -2.6)
+      (pt 1.5 -2.6)
+      (pt -1.75 -2.6)
+      (pt -1.75 -2.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.8 3.6)
+      (pt 5 3.6)
+      (pt 5 -3.6)
+      (pt -5.8 -3.6)
+      (pt -5.8 3.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.8 -1.9)
+      (arc (pt -4.800 -1.900) (pt -4.800 -1.950) (pt -4.700 -1.850) (start 180.0) (sweep 180.0))
+      (pt -4.7 -1.9)
+      (arc (pt -4.700 -1.900) (pt -4.800 -1.950) (pt -4.700 -1.850) (start 180.0) (sweep .0))
+      (pt -4.8 -1.9)
+      (arc (pt -4.800 -1.900) (pt -4.800 -1.950) (pt -4.700 -1.850) (start 180.0) (sweep 180.0))
+      (pt -4.7 -1.9))))
+   (leg 1 (pt -3.150 -1.900) (padstack 0))
+   (leg 2 (pt 3.150 -1.900) (padstack 0))
+   (leg 3 (pt -3.150 1.900) (padstack 0))
+   (leg 4 (pt 3.150 1.900) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.700 0 0 0.000))
+   )
+   (model "TL3342F160QG.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
