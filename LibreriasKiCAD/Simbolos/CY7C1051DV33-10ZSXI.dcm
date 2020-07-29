@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP CY7C1051DV33-10ZSXI
-D Cypress Semiconductor CY7C1051DV33-10ZSXI SRAM Memory, 8Mbit, -0.5 to 4.6 V, 10ns 44-Pin TSOP
-K
-F http://www.cypress.com/file/42786/download
-$ENDCMP
-#
-#End Doc Library

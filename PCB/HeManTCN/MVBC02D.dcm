@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MVBC02D
-D MCU TCN Bombardier MVBC02D
-K MVBC02D Bombardier
-F /mnt/Shared/GitHub/Repos/TesisCESE/Docs/MVBC02D_Datasheet.pdf
-$ENDCMP
-#
-#End Doc Library
