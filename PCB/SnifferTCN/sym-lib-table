@@ -24,4 +24,6 @@
   (lib (name Secuencial_SN74LVCR162245DGGR)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/Simbolos/Secuencial_SN74LVCR162245DGGR.lib)(options "")(descr ""))
   (lib (name Funcional_SN74LVCR162245DGGR)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/Simbolos/Funcional_SN74LVCR162245DGGR.lib)(options "")(descr ""))
   (lib (name ISL83485IBZ)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/Simbolos/ISL83485IBZ.lib)(options "")(descr ""))
+  (lib (name USBLC64SC6)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/Simbolos/USBLC64SC6.lib)(options "")(descr ""))
+  (lib (name LAN8742AICZTR)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/Simbolos/LAN8742AICZTR.lib)(options "")(descr ""))
 )
