@@ -1,0 +1,424 @@
+Info: Checking netlist symbol footprint "J118:/6191F165:Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm".
+Info: Checking netlist symbol footprint "J105:/62118D74:Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J106:/5DABE56E:Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR".
+Info: Checking netlist symbol footprint "J107:/5DAACC8F:Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J108:/5DAACC80:Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J109:/5DA7B0B1:Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal".
+Info: Checking netlist symbol footprint "J110:/5DA7B0BB:Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal".
+Info: Checking netlist symbol footprint "J111:/5DA7B102:footprintsSnifferTCN:USB_A_Female_Vertical_RA_73725-0110BLF".
+Info: Checking netlist symbol footprint "J112:/5DAA1759:footprintsSnifferTCN:Bornera2Pines_282837-2".
+Info: Checking netlist symbol footprint "U113:/5F5FA9EC:TSOP-44".
+Info: Checking netlist symbol footprint "J113:/5DA6F3F1:Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J114:/5DA6F3DC:Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J115:/5DA6A50E:Connector_Card:microSD_HC_Hirose_DM3D-SF".
+Info: Checking netlist symbol footprint "J116:/60DC920E:footprintsSnifferTCN:Bornera6Pines_282837-6".
+Info: Checking netlist symbol footprint "J117:/6011FC8E:footprintsSnifferTCN:Bornera3Pines_282837-3".
+Info: Checking netlist symbol footprint "U112:/5DA6F3C2:Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm".
+Info: Checking netlist symbol footprint "J104:/5DAACC55:Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "J119:/6191F18A:Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm".
+Info: Checking netlist symbol footprint "J121:/62A9BEB8:Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "JP101:/5DA64962:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "JP102:/5DA6487F:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal".
+Info: Checking netlist symbol footprint "L102:/61BEDA6A:Inductor_SMD:L_6.3x6.3_H3".
+Info: Checking netlist symbol footprint "L104:/5F5D987E:Inductor_SMD:L_6.3x6.3_H3".
+Info: Checking netlist symbol footprint "R101:/5E3428E2:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R102:/5DA64872:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R103:/5DABE4F8:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R104:/5DABE4F0:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R105:/5DABE4E8:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R106:/5DABE4CC:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R107:/5DABE55F:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R108:/5DA99B3A:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R109:/5DA6A4DD:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "D114:/6432984A:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "C152:/5FAB94E9:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C154:/5F675BF8:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C155:/5F4DCDD3:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C156:/5F6C4429:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "D103:/5DAA1761:Diode_SMD:D_SOD-123".
+Info: Checking netlist symbol footprint "D104:/5DA99B32:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D105:/5DA99B1C:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D106:/614A8E7F:Package_TO_SOT_SMD:SOT-23".
+Info: Checking netlist symbol footprint "D107:/614A8E77:Package_TO_SOT_SMD:SOT-23".
+Info: Checking netlist symbol footprint "D108:/6011FCA2:Package_TO_SOT_SMD:SOT-23".
+Info: Checking netlist symbol footprint "D109:/60DC9222:Package_TO_SOT_SMD:SOT-23".
+Info: Checking netlist symbol footprint "D110:/60DC921A:Package_TO_SOT_SMD:SOT-23".
+Info: Checking netlist symbol footprint "D111:/64106B63:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D112:/64080FF3:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D113:/64262DA4:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "R110:/5DA6A4E7:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "D115:/64329861:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D116:/6436BCAB:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D117:/6436BCC2:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D118:/643F05F4:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D119:/643F060B:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "D120:/643F0622:LED_SMD:LED_0805_2012Metric_Castellated".
+Info: Checking netlist symbol footprint "H101:/5DAACBB5:MountingHole:MountingHole_3.2mm_M3_Pad_Via".
+Info: Checking netlist symbol footprint "H102:/5DAACBBC:MountingHole:MountingHole_3.2mm_M3_Pad_Via".
+Info: Checking netlist symbol footprint "H103:/5DAACBA7:MountingHole:MountingHole_3.2mm_M3_Pad_Via".
+Info: Checking netlist symbol footprint "H104:/5DAACBAE:MountingHole:MountingHole_3.2mm_M3_Pad_Via".
+Info: Checking netlist symbol footprint "IC101:/5F44CEF1:footprintsSnifferTCN:AP3512EMPTR-G1".
+Info: Checking netlist symbol footprint "U114:/616C1D14:SOIC8_4X5_INR".
+Info: Checking netlist symbol footprint "J102:/5DA64969:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded".
+Info: Checking netlist symbol footprint "J103:/5DAACC96:Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical".
+Info: Checking netlist symbol footprint "SW102:/5DA99B0D:footprintsSnifferTCN:Pulsador_TL3342F160QG".
+Info: Checking netlist symbol footprint "R142:/64329869:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R143:/6436BCB3:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R144:/6436BCCA:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R145:/643F05FC:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R146:/643F0613:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R147:/643F062A:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R148:/647A0E2E:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R149:/6035668C:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R150:/6027E91D:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R151:/604C270D:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R152:/60431A3A:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R153:/60A80888:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R154:/5FB5846C:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R155:/5FAB9509:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "SW101:/5DA99AFE:footprintsSnifferTCN:Pulsador_TL3342F160QG".
+Info: Checking netlist symbol footprint "R141:/64329852:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "U111:/5FB58441:Package_TO_SOT_SMD:SOT-23-5".
+Info: Checking netlist symbol footprint "SW103:/622D3FAD:footprintsSnifferTCN:Pulsador_TL3342F160QG".
+Info: Checking netlist symbol footprint "SW104:/62C20BC2:footprintsSnifferTCN:Pulsador_TL3342F160QG".
+Info: Checking netlist symbol footprint "U110:/5DA6A4D2:footprints:S25FL127SABMFI101".
+Info: Checking netlist symbol footprint "SW105:/647A0E1F:footprintsSnifferTCN:Pulsador_TL3342F160QG".
+Info: Checking netlist symbol footprint "U101:/5ECD5F3F:LQFP-144_STM".
+Info: Checking netlist symbol footprint "U109:/5DA7B0CB:Package_TO_SOT_SMD:SOT-23-5".
+Info: Checking netlist symbol footprint "U102:/5F41528F:DGG48".
+Info: Checking netlist symbol footprint "U103:/5F5A0CE3:DGV56".
+Info: Checking netlist symbol footprint "U108:/5F2B39AC:Package_TO_SOT_SMD:SOT-23-6".
+Info: Checking netlist symbol footprint "U104:/5F5469FE:Package_QFP:QFP-100_14x20mm_P0.5mm".
+Info: Checking netlist symbol footprint "U105:/5DABE473:Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm".
+Info: Checking netlist symbol footprint "U106:/5F2B553D:Package_TO_SOT_SMD:SOT-23-6".
+Info: Checking netlist symbol footprint "U107:/5DA7B096:Package_TO_SOT_SMD:SOT-23-6".
+Info: Checking netlist symbol footprint "R126:/61617C3E:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R111:/5DA6A4EF:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R112:/5DA6A4F7:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R113:/5DA6A4FF:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R114:/5DA6A507:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R115:/5DA99B4F:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R116:/5DA99B24:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R117:/5DA6F3E4:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R118:/61617C2E:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R119:/61617C36:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R120:/614A8EDE:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R121:/614A8EE6:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R122:/614A8EEE:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R123:/60DC92B8:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R124:/60DC92C0:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R125:/60DC92C8:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "J101:/5DA64970:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded".
+Info: Checking netlist symbol footprint "R127:/614A8EA7:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R128:/614A8E9F:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R129:/614A8E97:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R130:/60DC9250:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R131:/60DC9248:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R132:/60DC9240:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R133:/5F24717C:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R134:/5F248A97:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R135:/5F248ECE:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R136:/5F24932B:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R137:/63BFB17D:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R138:/64106B6B:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R139:/64080FFB:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "R140:/64262DAC:Resistor_SMD:R_0805_2012Metric".
+Info: Checking netlist symbol footprint "C105:/5DA64895:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C109:/5DA647E3:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C130:/5DA6F3AB:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C131:/6030EEC3:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C108:/5DA6480B:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C132:/5FB5845B:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C133:/5DA6F416:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C107:/5DA647DB:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C134:/5FAB94F8:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C106:/5E3428DD:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C135:/5DA6A4B1:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C129:/5DA6A495:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C136:/616C1D2B:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C137:/614A8F2D:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C104:/5DA6489D:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C138:/614A8ED3:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C103:/5E3428E1:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C139:/6133B053:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C102:/5E3428DE:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C140:/60DC927C:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C141:/61B7EA16:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C123:/5DABE4B1:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C118:/5DABE525:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C117:/5DABE51D:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C119:/5DABE485:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C116:/5DABE4E0:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C120:/5DABE48D:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C121:/5DABE4A1:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C115:/5DA648C3:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C122:/5DABE4A9:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C114:/5DA64803:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C151:/5FB5844C:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C113:/5E3428EB:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C124:/5DABE53B:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C125:/5DABE549:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C112:/5DA647FB:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C126:/5DA7B0E9:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C111:/5DA647F3:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C127:/5DA7B0D9:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C110:/5DA647EB:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C128:/5DAA17AB:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C144:/61B7E9FE:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C147:/61BEDA84:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "U121:/5F9EF593:SQFN24_4X4MC_MCH".
+Info: Checking netlist symbol footprint "U120:/5FAB94DE:Package_TO_SOT_SMD:SOT-23-5".
+Info: Checking netlist symbol footprint "C101:/5DA64833:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "Y101:/5DA6488D:Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm".
+Info: Checking netlist symbol footprint "C146:/61B7EA0E:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "U119:/61C2C3B4:SOIC_05WU-7_DIO".
+Info: Checking netlist symbol footprint "C148:/61BEDA18:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "U118:/60E4DC66:SOIC8_4X5_INR".
+Info: Checking netlist symbol footprint "C145:/61B7EA06:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "Y102:/5E3428EA:Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm".
+Info: Checking netlist symbol footprint "U117:/611D648E:SOIC8_4X5_INR".
+Info: Checking netlist symbol footprint "C149:/61BEDA62:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "Y103:/5DABE515:Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm".
+Info: Checking netlist symbol footprint "U116:/614A8F0D:SOIC8_4X5_INR".
+Info: Checking netlist symbol footprint "Y104:/631D112D:footprintsSnifferTCN:SG7050CAN1000000MTJGA3".
+Info: Checking netlist symbol footprint "C143:/61B7E9F6:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "U115:/614A8F16:SOIC8_4X5_INR".
+Info: Checking netlist symbol footprint "C142:/61B7E9EE:Capacitor_SMD:C_0805_2012Metric".
+Info: Checking netlist symbol footprint "C150:/61BEDA10:Capacitor_SMD:C_0805_2012Metric".
+Adding new symbol R127 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R115 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol U106 footprint Package_TO_SOT_SMD:SOT-23-6.
+Adding new symbol R116 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C112 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C116 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C111 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol U109 footprint Package_TO_SOT_SMD:SOT-23-5.
+Adding new symbol R126 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol Y101 footprint Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm.
+Adding new symbol R108 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R117 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R128 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C117 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R122 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol Y103 footprint Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm.
+Adding new symbol U107 footprint Package_TO_SOT_SMD:SOT-23-6.
+Adding new symbol R120 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R119 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C114 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C115 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R121 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R118 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R125 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C109 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol Y102 footprint Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm.
+Adding new symbol C113 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R123 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol U105 footprint Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.
+Adding new symbol U108 footprint Package_TO_SOT_SMD:SOT-23-6.
+Adding new symbol R124 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R143 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R139 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R152 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R140 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C104 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R141 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R151 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R142 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C103 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R150 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C105 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R144 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C102 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R145 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R149 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R148 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R146 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C101 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R147 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C107 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R129 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol U120 footprint Package_TO_SOT_SMD:SOT-23-5.
+Adding new symbol R130 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R131 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R132 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C108 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R133 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol U111 footprint Package_TO_SOT_SMD:SOT-23-5.
+Adding new symbol R134 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C110 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R135 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R155 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R154 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R136 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C106 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R137 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R138 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R153 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol H102 footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via.
+Adding new symbol D115 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol C142 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D116 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol D117 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol C141 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D118 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol D119 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol C140 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D120 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol H101 footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via.
+Adding new symbol C139 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D114 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol H103 footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via.
+Adding new symbol C138 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol H104 footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via.
+Adding new symbol C137 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J101 footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded.
+Adding new symbol J102 footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded.
+Adding new symbol C136 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J103 footprint Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical.
+Adding new symbol J104 footprint Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical.
+Adding new symbol C135 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J105 footprint Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical.
+Adding new symbol D106 footprint Package_TO_SOT_SMD:SOT-23.
+Adding new symbol C152 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C150 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C154 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C155 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C149 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C156 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D103 footprint Diode_SMD:D_SOD-123.
+Adding new symbol C148 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D104 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol D105 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol C147 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R113 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol D107 footprint Package_TO_SOT_SMD:SOT-23.
+Adding new symbol C146 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D108 footprint Package_TO_SOT_SMD:SOT-23.
+Adding new symbol D109 footprint Package_TO_SOT_SMD:SOT-23.
+Adding new symbol C145 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D110 footprint Package_TO_SOT_SMD:SOT-23.
+Adding new symbol D111 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol C144 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol D112 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol D113 footprint LED_SMD:LED_0805_2012Metric_Castellated.
+Adding new symbol C143 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C123 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R112 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol JP101 footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical.
+Adding new symbol JP102 footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal.
+Adding new symbol C125 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R111 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol L102 footprint Inductor_SMD:L_6.3x6.3_H3.
+Adding new symbol L104 footprint Inductor_SMD:L_6.3x6.3_H3.
+Adding new symbol C124 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C119 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R101 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R102 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C126 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R110 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R103 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R109 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C120 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R104 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C122 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R105 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol R106 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C151 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C121 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R107 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C130 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C134 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J107 footprint Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical.
+Adding new symbol J108 footprint Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical.
+Adding new symbol C133 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J109 footprint Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal.
+Adding new symbol J110 footprint Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal.
+Adding new symbol J106 footprint Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR.
+Adding new symbol C132 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol R114 footprint Resistor_SMD:R_0805_2012Metric.
+Adding new symbol C131 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J113 footprint Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical.
+Adding new symbol J114 footprint Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical.
+Adding new symbol J115 footprint Connector_Card:microSD_HC_Hirose_DM3D-SF.
+Adding new symbol C129 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol U112 footprint Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm.
+Adding new symbol C128 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J118 footprint Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm.
+Adding new symbol C127 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol C118 footprint Capacitor_SMD:C_0805_2012Metric.
+Adding new symbol J119 footprint Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm.
+Adding new symbol J121 footprint Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical.
+
+
+Error: J111 footprint "USB_A_Female_Vertical_RA_73725-0110BLF" not found in any libraries in the footprint library table.
+
+Error: Cannot add new symbol U121 due to missing footprint SQFN24_4X4MC_MCH.
+Error: Cannot add new symbol U110 due to missing footprint footprints:S25FL127SABMFI101.
+Error: Cannot add new symbol U119 due to missing footprint SOIC_05WU-7_DIO.
+Error: Cannot add new symbol U118 due to missing footprint SOIC8_4X5_INR.
+Error: Cannot add new symbol U117 due to missing footprint SOIC8_4X5_INR.
+Error: Cannot add new symbol U116 due to missing footprint SOIC8_4X5_INR.
+Error: Cannot add new symbol U115 due to missing footprint SOIC8_4X5_INR.
+Error: Cannot add new symbol U114 due to missing footprint SOIC8_4X5_INR.
+Error: Cannot add new symbol U113 due to missing footprint TSOP-44.
+Error: Cannot add new symbol Y104 due to missing footprint footprintsSnifferTCN:SG7050CAN1000000MTJGA3.
+Error: J112 footprint "Bornera2Pines_282837-2" not found in any libraries in the footprint library table.
+
+Error: U116 footprint "SOIC8_4X5_INR" not found in any libraries in the footprint library table.
+
+Error: U115 footprint "SOIC8_4X5_INR" not found in any libraries in the footprint library table.
+
+Error: U114 footprint "SOIC8_4X5_INR" not found in any libraries in the footprint library table.
+
+Error: U119 footprint "SOIC_05WU-7_DIO" not found in any libraries in the footprint library table.
+
+Error: U121 footprint "SQFN24_4X4MC_MCH" not found in any libraries in the footprint library table.
+
+Error: U113 footprint "TSOP-44" not found in any libraries in the footprint library table.
+
+Error: U104 footprint "QFP-100_14x20mm_P0.5mm" not found in any libraries in the footprint library table.
+
+Error: U110 footprint "S25FL127SABMFI101" not found in any libraries in the footprint library table.
+
+Error: IC101 footprint "AP3512EMPTR-G1" not found in any libraries in the footprint library table.
+
+Error: U117 footprint "SOIC8_4X5_INR" not found in any libraries in the footprint library table.
+
+Error: J117 footprint "Bornera3Pines_282837-3" not found in any libraries in the footprint library table.
+
+Error: J116 footprint "Bornera6Pines_282837-6" not found in any libraries in the footprint library table.
+
+Error: SW104 footprint "Pulsador_TL3342F160QG" not found in any libraries in the footprint library table.
+
+Error: SW101 footprint "Pulsador_TL3342F160QG" not found in any libraries in the footprint library table.
+
+Error: SW102 footprint "Pulsador_TL3342F160QG" not found in any libraries in the footprint library table.
+
+Error: SW105 footprint "Pulsador_TL3342F160QG" not found in any libraries in the footprint library table.
+
+Error: SW103 footprint "Pulsador_TL3342F160QG" not found in any libraries in the footprint library table.
+
+Error: Y104 footprint "SG7050CAN1000000MTJGA3" not found in any libraries in the footprint library table.
+
+Error: Cannot add new symbol J117 due to missing footprint footprintsSnifferTCN:Bornera3Pines_282837-3.
+Error: Cannot add new symbol U103 due to missing footprint DGV56.
+Error: Cannot add new symbol U102 due to missing footprint DGG48.
+Error: Cannot add new symbol U101 due to missing footprint LQFP-144_STM.
+Error: Cannot add new symbol SW105 due to missing footprint footprintsSnifferTCN:Pulsador_TL3342F160QG.
+Error: Cannot add new symbol SW104 due to missing footprint footprintsSnifferTCN:Pulsador_TL3342F160QG.
+Error: Cannot add new symbol SW103 due to missing footprint footprintsSnifferTCN:Pulsador_TL3342F160QG.
+Error: Cannot add new symbol SW102 due to missing footprint footprintsSnifferTCN:Pulsador_TL3342F160QG.
+Error: Cannot add new symbol SW101 due to missing footprint footprintsSnifferTCN:Pulsador_TL3342F160QG.
+Error: Cannot add new symbol U104 due to missing footprint Package_QFP:QFP-100_14x20mm_P0.5mm.
+Error: Cannot add new symbol J116 due to missing footprint footprintsSnifferTCN:Bornera6Pines_282837-6.
+Error: Cannot add new symbol J112 due to missing footprint footprintsSnifferTCN:Bornera2Pines_282837-2.
+Error: Cannot add new symbol J111 due to missing footprint footprintsSnifferTCN:USB_A_Female_Vertical_RA_73725-0110BLF.
+Error: Cannot add new symbol IC101 due to missing footprint footprintsSnifferTCN:AP3512EMPTR-G1.
+Error: U102 footprint "DGG48" not found in any libraries in the footprint library table.
+
+Error: U103 footprint "DGV56" not found in any libraries in the footprint library table.
+
+Error: U101 footprint "LQFP-144_STM" not found in any libraries in the footprint library table.
+
+Error: U118 footprint "SOIC8_4X5_INR" not found in any libraries in the footprint library table.
+

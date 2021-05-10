@@ -1,4 +1,4 @@
-update=sáb 25 jul 2020 00:30:42 -03
+update=mié 28 abr 2021 11:47:02 -03
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=HeManTCN.net
+LastNetListRead=SnifferTCN.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
