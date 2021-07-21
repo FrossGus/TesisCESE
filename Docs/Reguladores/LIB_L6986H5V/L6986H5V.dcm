@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L6986H5V
+D Conv DC-DC 4V to 38V Synchronous Step Down Single-Out 5V 2A 16-Pin HTSSOP EP Tube
+F https://www.arrow.com/en/products/l6986h5v/stmicroelectronics
+$ENDCMP
+#
+#End Doc Library

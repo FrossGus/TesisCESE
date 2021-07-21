@@ -177,4 +177,6 @@
   (lib (name dk_Automotive-Relays)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/digikey-kicad-library/digikey-symbols/dk_Automotive-Relays.lib)(options "")(descr ""))
   (lib (name dk_Alarms-Buzzers-and-Sirens)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/digikey-kicad-library/digikey-symbols/dk_Alarms-Buzzers-and-Sirens.lib)(options "")(descr ""))
   (lib (name dk_Addressable-Specialty)(type Legacy)(uri ${KIPRJMOD}/LibreriasKiCAD/digikey-kicad-library/digikey-symbols/dk_Addressable-Specialty.lib)(options "")(descr ""))
+  (lib (name L6986H5V)(type Legacy)(uri /mnt/Shared/GitHub/Repos/TesisCESE/Docs/Reguladores/LIB_L6986H5V/L6986H5V.lib)(options "")(descr ""))
+  (lib (name KSZ8091MNXIA-TR)(type Legacy)(uri "/mnt/Shared/GitHub/Repos/TesisCESE/Docs/LAN IC/KSZ8091MNX/KSZ8091MNXIA-TR.lib")(options "")(descr ""))
 )

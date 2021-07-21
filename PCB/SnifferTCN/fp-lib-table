@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name footprintsSnifferTCN)(type KiCad)(uri /mnt/Shared/GitHub/Repos/TesisCESE/LibreriasKiCAD/footprintsSnifferTCN.pretty)(options "")(descr ""))
+  (lib (name footprintsSnifferTCN)(type KiCad)(uri /mnt/Shared/GitHub/Repos/TesisCESE/LibreriasKiCAD/footprintsSnifferTCN.pretty)(options "")(descr "")(disabled))
   (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/LibreriasKiCAD/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name footprintsSnifferTCNNEW)(type KiCad)(uri ${KIPRJMOD}/LibreriasKiCAD/footprintsSnifferTCN.pretty)(options "")(descr ""))
 )
